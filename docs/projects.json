@@ -1,0 +1,288 @@
+[
+  {
+    "id": "MTL-DA-001",
+    "name": "Retail Banking Customer & Portfolio Intelligence",
+    "track": "Data Analytics",
+    "capabilities": [
+      "Data Analytics",
+      "SQL",
+      "Python",
+      "Power BI",
+      "Customer Analytics",
+      "KPI Design",
+      "Data Storytelling"
+    ],
+    "sector": "Banking / Financial Services",
+    "problem": "Help a retail banking team understand customer behaviour, portfolio performance, segmentation and commercial or risk patterns from banking data.",
+    "expertise": [
+      "SQL",
+      "Python",
+      "Power BI or Tableau",
+      "Customer analytics",
+      "KPI design",
+      "Stakeholder communication"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DA-001-retail-banking-intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DA-002",
+    "name": "Student Engagement, Retention & Academic Performance Intelligence",
+    "track": "Data Analytics",
+    "capabilities": [
+      "Data Analytics",
+      "SQL",
+      "Python",
+      "Cohort Analysis",
+      "Education Analytics",
+      "Dashboarding",
+      "Data Storytelling"
+    ],
+    "sector": "Higher Education / Digital Learning",
+    "problem": "Help a digital education provider understand how student engagement relates to retention and academic outcomes and where intervention may be required.",
+    "expertise": [
+      "SQL or Python",
+      "Cohort analysis",
+      "Learning analytics",
+      "Data modelling",
+      "Dashboarding",
+      "Insight communication"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/Mettelo-MTL-DA-002-student-engagement-intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DA-003",
+    "name": "Energy Demand, Tariff & Customer Consumption Intelligence",
+    "track": "Data Analytics",
+    "capabilities": [
+      "Data Analytics",
+      "SQL",
+      "Python",
+      "Time Series Analysis",
+      "Segmentation",
+      "Energy Analytics",
+      "Dashboarding"
+    ],
+    "sector": "Energy / Utilities",
+    "problem": "Help an energy organisation understand consumption behaviour, demand patterns, tariff performance and customer segments using smart-meter data.",
+    "expertise": [
+      "SQL or Python",
+      "Time-series analysis",
+      "Segmentation",
+      "Energy analytics",
+      "Dashboarding",
+      "Data modelling"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DA-003-Energy-Demand-Tariff-Customer-Consumption-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DA-004",
+    "name": "Road Safety, Collision Risk & Transport Intelligence",
+    "track": "Data Analytics",
+    "capabilities": [
+      "Data Analytics",
+      "Python",
+      "SQL",
+      "Geospatial Analysis",
+      "Public Sector Analytics",
+      "Statistical Analysis",
+      "Data Visualisation"
+    ],
+    "sector": "Public Sector / Transport",
+    "problem": "Help a transport authority understand when, where and under what conditions collisions and casualties occur so interventions can be better targeted.",
+    "expertise": [
+      "Python or SQL",
+      "Transport analytics",
+      "Geospatial or location analysis",
+      "Statistical analysis",
+      "Data visualisation"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DA-004-Road-Safety-Collision-Risk-Transport-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DA-005",
+    "name": "Food Safety Compliance, Inspection Risk & Regulatory Intelligence",
+    "track": "Data Analytics",
+    "capabilities": [
+      "Data Analytics",
+      "SQL",
+      "Python",
+      "Risk Analysis",
+      "Regulatory Analytics",
+      "Dashboarding",
+      "Data Quality"
+    ],
+    "sector": "Public Health / Regulation",
+    "problem": "Help a regulatory authority understand food-hygiene performance, inspection patterns and compliance risks so attention can be prioritised.",
+    "expertise": [
+      "SQL or Python",
+      "Regulatory analytics",
+      "Risk analysis",
+      "Dashboarding",
+      "Data quality",
+      "Stakeholder reporting"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DA-005-Food-Safety-Compliance-Inspection-Risk-Regulatory-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DE-006",
+    "name": "UK Road Safety Data Platform",
+    "track": "Data Engineering",
+    "capabilities": [
+      "Data Engineering",
+      "Python",
+      "SQL",
+      "DuckDB",
+      "dbt",
+      "Data Modelling",
+      "ETL/ELT",
+      "Data Quality",
+      "Git"
+    ],
+    "sector": "Public Sector / Transport",
+    "problem": "Build a reproducible data platform that ingests, validates and models official collision, vehicle and casualty datasets into analytics-ready tables.",
+    "expertise": [
+      "Python",
+      "SQL",
+      "DuckDB",
+      "dbt",
+      "Dimensional modelling",
+      "Data-quality testing",
+      "Pipeline design",
+      "Git"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DE-006-UK-Road-Safety-Data-Platform",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DE-007",
+    "name": "UK Companies Registry Data Platform",
+    "track": "Data Engineering",
+    "capabilities": [
+      "Data Engineering",
+      "Python",
+      "REST APIs",
+      "SQL",
+      "JSON",
+      "DuckDB",
+      "dbt",
+      "Incremental Loading",
+      "Data Quality",
+      "Git"
+    ],
+    "sector": "Companies / Business Intelligence",
+    "problem": "Build an API-based platform that collects Companies House company and filing data, handles pagination and refreshes, and produces reliable analytical models.",
+    "expertise": [
+      "Python APIs",
+      "SQL",
+      "JSON processing",
+      "DuckDB or dbt",
+      "Incremental loading",
+      "Data quality",
+      "Git"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DE-007-UK-Companies-Registry-Data-Platform",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DS-008",
+    "name": "NHS Waiting List Demand Forecasting & Capacity Planning",
+    "track": "Data Science",
+    "capabilities": [
+      "Data Science",
+      "Machine Learning",
+      "Forecasting",
+      "Python",
+      "Time Series",
+      "Model Evaluation",
+      "Backtesting",
+      "Healthcare Analytics"
+    ],
+    "sector": "Healthcare / NHS",
+    "problem": "Forecast future RTT waiting-list pressure and translate the forecast into practical capacity-planning insight.",
+    "expertise": [
+      "Python",
+      "Time-series forecasting",
+      "statsmodels or scikit-learn",
+      "Backtesting",
+      "Model evaluation",
+      "Operational analytics"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DS-008-NHS-Waiting-List-Demand-Forecasting-Capacity-Planning",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-DS-009",
+    "name": "London Fire Incident Response Demand & Risk Modelling",
+    "track": "Data Science",
+    "capabilities": [
+      "Data Science",
+      "Machine Learning",
+      "Classification",
+      "Python",
+      "Feature Engineering",
+      "XGBoost",
+      "SHAP",
+      "Model Validation",
+      "Explainability"
+    ],
+    "sector": "Emergency Services / Public Sector",
+    "problem": "Develop an explainable classification model that identifies incidents associated with higher operational response demand while controlling leakage and model risk.",
+    "expertise": [
+      "Python",
+      "Classification",
+      "Feature engineering",
+      "XGBoost or scikit-learn",
+      "SHAP",
+      "Threshold selection",
+      "Model validation"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-DS-009-London-Fire-Incident-Response-Demand-Risk-Modelling",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-AI-010",
+    "name": "NHS Operational Guidance Knowledge Assistant",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "LLM Engineering",
+      "RAG",
+      "Python",
+      "Embeddings",
+      "Vector Search",
+      "Prompt Engineering",
+      "AI Evaluation",
+      "Guardrails"
+    ],
+    "sector": "Healthcare / NHS",
+    "problem": "Build a RAG assistant that answers NHS operational and statistical guidance questions using approved evidence, citations and reliable refusal behaviour.",
+    "expertise": [
+      "Python",
+      "RAG",
+      "Embeddings",
+      "Vector search",
+      "Local LLMs",
+      "Prompt engineering",
+      "AI evaluation",
+      "Guardrails"
+    ],
+    "team_size": "3–4",
+    "repository": "https://github.com/Mettelo/MTL-AI-010-NHS-Operational-Guidance-Knowledge-Assistant",
+    "status": "Available"
+  }
+]
