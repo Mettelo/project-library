@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Browse Mettelo production-style Data, Data Engineering, Data Science, Machine Learning and AI projects.">
+  <title>Mettelo Project Studio Catalogue</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Mettelo Project Studio</div>
+    <h1>Find a project by the capability you want to build.</h1>
+    <p class="lead">Browse realistic team projects across Data Analytics, Data Engineering, Data Science, Machine Learning and Artificial Intelligence. Search by skill, capability, sector or project name.</p>
+    <div class="stats">
+      <div class="stat"><strong id="totalProjects">—</strong>Projects</div>
+      <div class="stat"><strong id="totalTracks">—</strong>Core tracks</div>
+      <div class="stat"><strong id="totalSectors">—</strong>Sectors</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="filters" aria-label="Project filters">
+    <div class="filter-grid">
+      <input id="search" type="search" placeholder="Search: Python, forecasting, RAG, banking..." aria-label="Search projects">
+      <select id="track" aria-label="Filter by capability"><option value="">All capabilities</option></select>
+      <select id="sector" aria-label="Filter by sector"><option value="">All sectors</option></select>
+      <button id="reset" type="button">Reset</button>
+    </div>
+  </section>
+
+  <div class="results-head">
+    <h2>Available projects</h2>
+    <span id="count"></span>
+  </div>
+  <section id="cards" class="cards" aria-live="polite"></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Mettelo — Built for What’s Next.</strong><br>
+    Project Library → Project Specification → Team Delivery Repository
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
