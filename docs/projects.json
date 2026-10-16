@@ -815,7 +815,7 @@
       "Cohort Analysis",
       "Intervention Prioritisation"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-021-School-Attendance-Persistent-Absence-Early-Intervention-Intelligence",
     "status": "Available",
     "brief": "An education directorate needs to decide where limited attendance-support resources should be focused. Build an attendance dashboard and review shortlist that identifies persistent absence by local authority and school phase, compares rates with affected-enrolment counts, and examines pupil-group gaps where the data supports them."
@@ -858,7 +858,7 @@
       "Service Performance",
       "Prevention Evaluation"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-022-Homelessness-Temporary-Accommodation-Prevention-Intelligence",
     "status": "Available",
     "brief": "A council housing partnership needs to understand whether homelessness pressure calls for a prevention-pathway review or an accommodation-supply enquiry. Build a dashboard that separates new duties, duty-ending outcomes and households in temporary accommodation, with distinct investigation lists for Housing Options and accommodation teams."
@@ -900,7 +900,7 @@
       "Public Sector Analytics",
       "Scenario Analysis"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-023-Local-Government-Financial-Resilience-Service-Pressure-Intelligence",
     "status": "Available",
     "brief": "A council finance team needs to understand which services are driving expenditure growth before challenging its medium-term financial plan. Build a service-spending dashboard and change analysis that compares councils with similar responsibilities and identifies specific service lines requiring further finance review."
@@ -943,7 +943,7 @@
       "Cohort Analysis",
       "Programme Evaluation"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-024-Apprenticeship-Skills-Pipeline-Participation-Achievement-Intelligence",
     "status": "Available",
     "brief": "A regional skills authority needs to decide which apprenticeship groups require participation support or employer outreach. Build a dashboard comparing starts, participation and achievements across supported areas, ages and levels, with completed years separated from provisional figures and no unsupported completion-rate claims."
@@ -986,7 +986,7 @@
       "Time Series Analysis",
       "Risk Analytics"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-025-Business-Insolvency-Sector-Stress-Economic-Resilience-Intelligence",
     "status": "Available",
     "brief": "An economic-development team needs to identify which insolvency patterns warrant business-support investigation. Build a dashboard of procedure trends and supported industry or recorded-location concentrations, showing whether increases persist and where coding or coverage gaps limit the conclusions."
@@ -1029,7 +1029,7 @@
       "Time Series Analysis",
       "Operational Resilience"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-026-Aviation-Punctuality-Delay-Operational-Resilience-Intelligence",
     "status": "Available",
     "brief": "An airport operations team needs to identify recurring punctuality and delay problems before choosing resilience investigations. Build a January–August 2026 performance dashboard that weights results by flight volumes, separates cancellations from delay and highlights airport/airline patterns that remain concerning across months."
@@ -1072,7 +1072,7 @@
       "Economic Analysis",
       "Concentration Analysis"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-027-Regional-Trade-Exposure-Export-Concentration-Market-Diversification-Intelligence",
     "status": "Available",
     "brief": "A regional trade board needs to identify which English regions and broad product groups require closer export-support review. Build a trade dashboard using the required regional HMRC tables to show changes in goods trade and supported concentration patterns; individual destination-market recommendations need additional country detail."
@@ -1116,7 +1116,7 @@
       "Policy Analytics",
       "Scenario Analysis"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-028-Local-Net-Zero-Emissions-Decarbonisation-Prioritisation-Intelligence",
     "status": "Available",
     "brief": "A combined authority needs to decide which places and sectors deserve decarbonisation feasibility work. Build an emissions dashboard and prioritisation tool that compares emissions scale and trend with a separate assessment of local influence, producing cases for further cost and delivery investigation."
@@ -1160,7 +1160,7 @@
       "Time Series Analysis",
       "Forecasting"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-029-NHS-Hospital-Activity-Demand-Flow-Capacity-Intelligence",
     "status": "Available",
     "brief": "A hospital planning team needs to identify sustained changes in elective and non-elective activity before deciding what operational evidence to request. Build a dashboard of verified activity trends and baseline comparisons, with a review list that separates observed changes from untested bed, workforce or waiting-list explanations."
@@ -1203,7 +1203,7 @@
       "GIS / Spatial Analysis",
       "Risk Assurance"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-030-River-Water-Quality-Classification-Environmental-Intervention-Intelligence",
     "status": "Available",
     "brief": "A catchment authority needs to decide which water bodies require ecological review, better evidence or a check on planned measures. Build a dashboard of comparable classification records and supported measures links, with separate investigation queues for weak ecological condition and missing evidence."
@@ -1249,7 +1249,7 @@
       "Customer Journey Analysis",
       "Classification"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-031-Ecommerce-Conversion-Customer-Journey-Optimisation-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1301,7 +1301,7 @@
       "Commercial Analytics",
       "Revenue Reconciliation"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-032-Retail-Customer-Value-Returns-Product-Mix-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1353,7 +1353,7 @@
       "Cost Scenarios",
       "Experiment Design"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-033-Bank-Marketing-Propensity-Campaign-Efficiency-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1405,7 +1405,7 @@
       "Cost-Sensitive Classification",
       "Model Assurance"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-034-Credit-Risk-Underwriting-Portfolio-Quality-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1457,7 +1457,7 @@
       "Inspection Prioritisation",
       "Operational Assurance"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-035-Manufacturing-Predictive-Maintenance-Downtime-Risk-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1509,7 +1509,7 @@
       "Account Strategy",
       "Category Analysis"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-036-B2B-Wholesale-Customer-Segmentation-Account-Growth-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1561,7 +1561,7 @@
       "Scenario Analysis",
       "Pilot Design"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-037-Commercial-Building-Energy-Demand-Efficiency-Optimisation-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1613,7 +1613,7 @@
       "Confidence-Based Routing",
       "Model Assurance"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-038-Manufacturing-Quality-Defect-Detection-Process-Assurance-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1667,7 +1667,7 @@
       "CPE Matching",
       "Security Governance"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence",
     "status": "Available",
     "data_downloads": [
@@ -1727,7 +1727,7 @@
       "False Positive Management",
       "Incident Response"
     ],
-    "team_size": "6–8",
+    "team_size": "3–5",
     "repository": "https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence",
     "status": "Available",
     "data_downloads": [

@@ -82,7 +82,7 @@ Projects **MTL-XF-011 to MTL-XF-040** are intentionally multidisciplinary. They 
 
 The objective is to reproduce the dependencies found in real delivery teams rather than treating each project as a single-role exercise.
 
-Projects 021–040 have **eight-week, 6–8-person simulated client briefs** in their master repositories. Each README explains the organisational setting, immediate planning need, accountable stakeholder and practical management use case. The accompanying business context and project brief specify the evidence pack and action record the team must hand over. Operational gains are proposed benefits to evaluate, not claimed results.
+Projects 021–040 have **eight-week, 3–5-person simulated client briefs** in their master repositories. Each README explains the organisational setting, immediate planning need, accountable stakeholder and practical management use case. The accompanying business context and project brief specify the evidence pack and action record the team must hand over. Operational gains are proposed benefits to evaluate, not claimed results.
 
 Projects **031–038** focus on private-sector commercial decisions; **039–040** cover vulnerability management and phishing triage. Their Studio cards include direct official dataset downloads and source-register guidance. Project 037 uses a residential energy dataset as a commercial-method prototype, and 038 classifies known faults rather than measuring a factory-wide defect rate.
 
@@ -107,7 +107,7 @@ See [CATALOGUE_SCHEMA.md](CATALOGUE_SCHEMA.md).
 
 ## Team Delivery Model
 
-The team size is defined by each master project. Specialist projects generally use smaller teams; the cross-functional series uses larger teams because multiple delivery disciplines are expected.
+The team size is defined by each master project. Projects 021–040 recommend **3–5 people**. Members combine complementary delivery roles, with named owners for each deliverable and a different member reviewing critical work. Other projects retain the team size specified in their master brief.
 
 Each participating team creates its delivery repository under the **Mettelo GitHub organisation** and uses it to evidence:
 

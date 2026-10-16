@@ -39,7 +39,7 @@ Track and Role match their metadata labels. Sector matches an individual slash-s
 
 ## Series 021–030
 
-Repository names were verified against the Mettelo organisation. Titles, problems, use cases and core sources follow the agreed project plan, including the revised Achievement scope for 024, HES hospital activity for 029 and Catchment Data classifications/measures for 030. Team size 6–8 is recommended in line with the existing Cross-Functional series until master briefs specify otherwise. For 027, the England time series alone cannot support country/product concentration analysis; the use case requires the corresponding HMRC breakdowns.
+Repository names were verified against the Mettelo organisation. Titles, problems, use cases and core sources follow the agreed project plan, including the revised Achievement scope for 024, HES hospital activity for 029 and Catchment Data classifications/measures for 030. Projects 021–030 recommend teams of 3–5, matching their master briefs. Members may combine delivery responsibilities while retaining independent review. For 027, the England time series alone cannot support country/product concentration analysis; the use case requires the corresponding HMRC breakdowns.
 
 ## Pagination and sorting
 
@@ -51,4 +51,4 @@ Each card displays one Project brief rather than separate problem and use-case p
 
 ## Series 031–040
 
-The catalogue includes eight private-sector commercial projects (031–038) and two information-security projects (039–040). Repository names, business workflows and data sources match their improved master packs. All are Cross-Functional, Available, and recommend teams of 6–8. Direct official downloads are in data_downloads; NVD also has a checksum metadata link. source_guide carries file-selection, extraction, licence and frozen-snapshot instructions. Dataset limitations remain visible in card descriptions, especially synthetic maintenance data, the residential energy proxy, known-fault-only quality examples and offline security scenarios.
+The catalogue includes eight private-sector commercial projects (031–038) and two information-security projects (039–040). Repository names, business workflows and data sources match their improved master packs. All are Cross-Functional, Available, and recommend teams of 3–5. Direct official downloads are in data_downloads; NVD also has a checksum metadata link. source_guide carries file-selection, extraction, licence and frozen-snapshot instructions. Dataset limitations remain visible in card descriptions, especially synthetic maintenance data, the residential energy proxy, known-fault-only quality examples and offline security scenarios.
