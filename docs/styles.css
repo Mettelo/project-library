@@ -140,7 +140,7 @@ button:hover{background:var(--indigo)}
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:18px;
-  padding-bottom:72px;
+  padding-bottom:24px;
 }
 .card{
   background:var(--white);
@@ -246,4 +246,20 @@ footer strong{color:var(--white)}
   .filters{position:static}
   .brand-tagline{display:none}
   h1{font-size:2.6rem}
+}
+
+[hidden]{display:none!important}
+button:disabled{opacity:.4;cursor:default}
+button:disabled:hover{background:var(--ink)}
+.results-head{flex-wrap:wrap;scroll-margin-top:150px}
+.sort-control{display:flex;align-items:center;gap:10px;font-size:.9rem;margin-left:auto}
+.sort-control select{width:auto;max-width:100%}
+.pagination{display:flex;align-items:center;justify-content:center;gap:18px;padding:12px 0 24px}
+.pagination:last-child{padding-bottom:60px}
+.pagination span{color:var(--slate);white-space:nowrap}
+@media(max-width:800px){
+  .results-head{scroll-margin-top:20px}
+  .sort-control{margin-left:0;flex-wrap:wrap}
+  .pagination{gap:10px}
+  .pagination button{padding:10px 12px}
 }

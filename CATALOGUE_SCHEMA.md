@@ -37,3 +37,7 @@ Track and Role match their metadata labels. Sector matches an individual slash-s
 ## Series 021–030
 
 Repository names were verified against the Mettelo organisation. Titles, problems, use cases and core sources follow the agreed project plan, including the revised Achievement scope for 024, HES hospital activity for 029 and Catchment Data classifications/measures for 030. Team size 6–8 is recommended in line with the existing Cross-Functional series until master briefs specify otherwise. For 027, the England time series alone cannot support country/product concentration analysis; the use case requires the corresponding HMRC breakdowns.
+
+## Pagination and sorting
+
+The catalogue shows 10 projects per page, with Previous and Next controls above and below the cards. Filtering and sorting apply to the full matching set before pagination. Changing a filter, keyword or sort returns to page 1. Reset clears filters and restores ascending project-number order. Sort choices cover project number in both directions, title A–Z/Z–A, track and sector; project number breaks ties. Navigation is hidden for ten or fewer matches and disabled at page boundaries.

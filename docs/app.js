@@ -1,4 +1,4 @@
-const state={projects:[],search:"",track:"",role:"",sector:""};
+const state={projects:[],search:"",track:"",role:"",sector:"",sort:"number-asc",page:1};
 const $=s=>document.querySelector(s);
 
 function normalise(v){return (v||"").toString().toLowerCase().trim()}
@@ -49,10 +49,39 @@ function card(p){
     </div>
   </article>`;
 }
+const PAGE_SIZE=10;
+function projectNumber(p){return Number(p.id.match(/\d+$/)?.[0]||0)}
+function sortedProjects(projects){
+  return [...projects].sort((a,b)=>{
+    const tie=projectNumber(a)-projectNumber(b)||a.id.localeCompare(b.id);
+    switch(state.sort){
+      case "number-desc": return -tie;
+      case "name-asc": return a.name.localeCompare(b.name)||tie;
+      case "name-desc": return b.name.localeCompare(a.name)||tie;
+      case "track": return a.track.localeCompare(b.track)||tie;
+      case "sector": return a.sector.localeCompare(b.sector)||tie;
+      default: return tie;
+    }
+  });
+}
+function changePage(delta){
+  state.page+=delta;
+  render();
+  $("#results").focus({preventScroll:true});
+  $("#results").scrollIntoView({behavior:"smooth",block:"start"});
+}
 function render(){
-  const filtered=state.projects.filter(matches);
-  $("#count").textContent=filtered.length+" of "+state.projects.length+" projects";
-  $("#cards").innerHTML=filtered.length?filtered.map(card).join(""):'<div class="empty">No projects match those filters. Try another track, role, sector or keyword.</div>';
+  const filtered=sortedProjects(state.projects.filter(matches));
+  const pages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));
+  state.page=Math.min(Math.max(1,state.page),pages);
+  const start=(state.page-1)*PAGE_SIZE;
+  const visible=filtered.slice(start,start+PAGE_SIZE);
+  document.querySelectorAll(".pagination").forEach(nav=>{nav.hidden=filtered.length<=PAGE_SIZE});
+  document.querySelectorAll("[data-page-status]").forEach(el=>{el.textContent="Page "+state.page+" of "+pages});
+  document.querySelectorAll("[data-page-prev]").forEach(el=>{el.disabled=state.page===1});
+  document.querySelectorAll("[data-page-next]").forEach(el=>{el.disabled=state.page===pages});
+  $("#count").textContent=filtered.length?"Showing "+(start+1)+"–"+Math.min(start+PAGE_SIZE,filtered.length)+" of "+filtered.length+" projects"+(filtered.length!==state.projects.length?" ("+state.projects.length+" total)":""):"0 matching projects ("+state.projects.length+" total)";
+  $("#cards").innerHTML=filtered.length?visible.map(card).join(""):'<div class="empty">No projects match those filters. Try another track, role, sector or keyword.</div>';
 }
 async function init(){
   const res=await fetch("./projects.json",{cache:"no-store"});
@@ -63,12 +92,16 @@ async function init(){
   fillSelect($("#role"),unique(state.projects.flatMap(p=>p.roles||[])),"All roles");
   fillSelect($("#sector"),unique(state.projects.flatMap(sectors)),"All sectors");
 
-  $("#search").addEventListener("input",e=>{state.search=e.target.value;render()});
-  $("#track").addEventListener("change",e=>{state.track=e.target.value;render()});
-  $("#role").addEventListener("change",e=>{state.role=e.target.value;render()});
-  $("#sector").addEventListener("change",e=>{state.sector=e.target.value;render()});
+  $("#search").addEventListener("input",e=>{state.search=e.target.value;state.page=1;render()});
+  $("#track").addEventListener("change",e=>{state.track=e.target.value;state.page=1;render()});
+  $("#role").addEventListener("change",e=>{state.role=e.target.value;state.page=1;render()});
+  $("#sector").addEventListener("change",e=>{state.sector=e.target.value;state.page=1;render()});
+  $("#sort").addEventListener("change",e=>{state.sort=e.target.value;state.page=1;render()});
+  document.querySelectorAll("[data-page-prev]").forEach(el=>el.addEventListener("click",()=>changePage(-1)));
+  document.querySelectorAll("[data-page-next]").forEach(el=>el.addEventListener("click",()=>changePage(1)));
   $("#reset").addEventListener("click",()=>{
-    state.search="";state.track="";state.role="";state.sector="";
+    state.search="";state.track="";state.role="";state.sector="";state.sort="number-asc";state.page=1;
+    $("#sort").value="number-asc";
     $("#search").value="";$("#track").value="";$("#role").value="";$("#sector").value="";
     render();
   });
