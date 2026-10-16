@@ -100,7 +100,8 @@ h1{
   backdrop-filter:blur(10px);
   z-index:3;
 }
-.filter-grid{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:12px}
+.filter-help{font-size:.88rem;color:var(--slate);margin-bottom:10px}
+.filter-grid{display:grid;grid-template-columns:1.7fr .8fr 1.15fr 1.05fr auto;gap:12px}
 input,select,button{
   width:100%;
   background:var(--white);
@@ -148,7 +149,7 @@ button:hover{background:var(--indigo)}
   padding:24px;
   display:flex;
   flex-direction:column;
-  min-height:340px;
+  min-height:430px;
   box-shadow:0 8px 26px rgba(20,25,37,.04);
 }
 .card:hover{
@@ -186,7 +187,11 @@ button:hover{background:var(--indigo)}
   color:var(--slate);
   margin-bottom:14px;
 }
-.problem{margin:0 0 16px}
+.problem{margin:0 0 12px}
+.use-case{margin:0 0 12px;color:#3E4654;font-size:.92rem}
+.data-source{font-size:.84rem;color:var(--slate);margin:0 0 13px;padding:9px 10px;background:#F7F3E8;border-left:3px solid var(--amber);border-radius:4px}
+.roles{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.role-chip{font-size:.75rem;background:#EEF0F7;border:1px solid #CDD0DE;padding:4px 7px;border-radius:999px;color:var(--indigo);font-weight:650}
 .tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}
 .tag{
   font-size:.77rem;

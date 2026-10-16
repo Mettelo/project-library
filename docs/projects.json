@@ -24,7 +24,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DA-001-retail-banking-intelligence",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Analyst",
+      "BI Developer"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DA-002",
@@ -51,7 +57,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/Mettelo-MTL-DA-002-student-engagement-intelligence",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Analyst",
+      "BI Developer"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DA-003",
@@ -78,7 +90,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DA-003-Energy-Demand-Tariff-Customer-Consumption-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Analyst",
+      "BI Developer"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DA-004",
@@ -104,7 +122,14 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DA-004-Road-Safety-Collision-Risk-Transport-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Analyst",
+      "BI Developer",
+      "GIS / Spatial Analyst"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DA-005",
@@ -131,7 +156,14 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DA-005-Food-Safety-Compliance-Inspection-Risk-Regulatory-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Analyst",
+      "BI Developer",
+      "Data Quality Analyst"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DE-006",
@@ -162,7 +194,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DE-006-UK-Road-Safety-Data-Platform",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Engineer",
+      "Data Quality Analyst"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DE-007",
@@ -193,7 +231,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DE-007-UK-Companies-Registry-Data-Platform",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Engineer",
+      "Data Quality Analyst"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DS-008",
@@ -221,7 +265,13 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DS-008-NHS-Waiting-List-Demand-Forecasting-Capacity-Planning",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Scientist",
+      "Data Analyst"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-DS-009",
@@ -251,7 +301,14 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-DS-009-London-Fire-Incident-Response-Demand-Risk-Modelling",
-    "status": "Available"
+    "status": "Available",
+    "roles": [
+      "Data Scientist",
+      "ML Engineer",
+      "Model Governance / Assurance"
+    ],
+    "use_case": "",
+    "data_source": ""
   },
   {
     "id": "MTL-AI-010",
@@ -283,6 +340,421 @@
     ],
     "team_size": "3–4",
     "repository": "https://github.com/Mettelo/MTL-AI-010-NHS-Operational-Guidance-Knowledge-Assistant",
+    "status": "Available",
+    "roles": [
+      "AI Engineer",
+      "LLM Engineer",
+      "AI Governance / Assurance"
+    ],
+    "use_case": "",
+    "data_source": ""
+  },
+  {
+    "id": "MTL-XF-011",
+    "name": "Public Procurement Spend, Supplier Concentration & Contract Risk Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Commercial Analytics",
+      "Data Quality",
+      "Decision Intelligence"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst / Commercial Analyst",
+      "BI Developer",
+      "Data Quality / Assurance Analyst"
+    ],
+    "sector": "Public Sector / Commercial / Procurement",
+    "problem": "Build a governed procurement-intelligence solution that helps commercial leaders identify supplier concentration, fragmented purchasing, re-procurement pressure and SME participation from Contracts Finder data.",
+    "use_case": "Supports commercial portfolio reviews by showing where procurement teams should investigate supplier dependency, fragmented demand or upcoming contract workload before deciding on intervention.",
+    "data_source": "Contracts Finder — June 2026 OCDS flattened CSV notices",
+    "expertise": [
+      "Business analysis",
+      "Data governance",
+      "SQL or Python",
+      "Procurement analytics",
+      "BI development",
+      "Data quality",
+      "Stakeholder decision support"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-011-Public-Procurement-Supplier-Contract-Risk-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-012",
+    "name": "NHS Workforce Capacity, Retention & Service Sustainability Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Data Science",
+      "Workforce Analytics",
+      "Model Governance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Workforce / Data Analyst",
+      "BI Developer",
+      "Data Scientist / Forecaster",
+      "Model Governance / Assurance Analyst"
+    ],
+    "sector": "Healthcare / NHS / Workforce",
+    "problem": "Create a governed workforce intelligence product that separates headcount, FTE and turnover so leaders can identify persistent workforce capacity and retention pressure.",
+    "use_case": "Supports workforce planning meetings by helping leaders decide whether a problem warrants recruitment analysis, retention intervention, workforce redesign or further investigation.",
+    "data_source": "NHS HCHS Workforce Statistics — July 2026 core workforce and turnover extracts",
+    "expertise": [
+      "Business analysis",
+      "Workforce analytics",
+      "Data governance",
+      "SQL or Python",
+      "BI development",
+      "Forecasting",
+      "Model assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-012-NHS-Workforce-Capacity-Retention-Service-Sustainability",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-013",
+    "name": "Financial Complaints, Conduct Risk & Customer Harm Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Risk Analytics",
+      "Regulatory Analytics",
+      "Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Conduct / Data Analyst",
+      "BI Developer",
+      "Risk / Assurance Analyst"
+    ],
+    "sector": "Financial Services / Conduct / Customer Outcomes",
+    "problem": "Build a conduct-intelligence view that separates complaint volume from complaint rate, upheld outcomes and closure performance to identify where customer-outcome issues deserve investigation.",
+    "use_case": "Supports complaints and conduct-risk committees by prioritising firms or products for investigation or enhanced monitoring without presenting analytical flags as regulatory findings.",
+    "data_source": "FCA Firm-Specific Complaints Data — 2025 H2",
+    "expertise": [
+      "Business analysis",
+      "Conduct risk",
+      "Data governance",
+      "Excel ingestion",
+      "SQL or Python",
+      "BI development",
+      "Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-013-Financial-Complaints-Conduct-Risk-Customer-Harm-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-014",
+    "name": "Telecom Customer Experience & Provider Performance Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Product Analytics",
+      "Customer Analytics",
+      "Trend Analysis"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Customer Insight / Data Analyst",
+      "BI Developer",
+      "Product Analyst",
+      "Assurance Analyst"
+    ],
+    "sector": "Telecommunications / Customer Experience",
+    "problem": "Create a multi-quarter provider and service intelligence product that distinguishes persistent complaint deterioration from temporary spikes and supports targeted root-cause investigation.",
+    "use_case": "Supports customer-experience reviews by showing which provider/service combinations warrant deeper investigation before resources are redirected.",
+    "data_source": "Ofcom Telecoms and Pay-TV Complaints — quarterly underlying CSV data",
+    "expertise": [
+      "Business analysis",
+      "Customer analytics",
+      "Data governance",
+      "Trend analysis",
+      "BI development",
+      "Product analytics",
+      "Quality assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-014-Telecom-Customer-Experience-Provider-Performance-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-015",
+    "name": "Housing Energy Efficiency, Consumption & Retrofit Prioritisation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Data Science",
+      "AI Governance",
+      "Responsible AI",
+      "Scenario Analysis"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Housing / Energy Data Analyst",
+      "BI Developer",
+      "Data Scientist",
+      "AI / Model Governance Analyst"
+    ],
+    "sector": "Housing / Energy / Net Zero",
+    "problem": "Build an explainable retrofit-prioritisation solution that combines property characteristics, energy consumption and efficiency-measure evidence while keeping investment decisions under human control.",
+    "use_case": "Supports housing investment workshops by comparing alternative prioritisation scenarios and showing which property segments warrant deeper feasibility assessment.",
+    "data_source": "DESNZ NEED Anonymised Data 2026 — 50,000-row sample",
+    "expertise": [
+      "Business analysis",
+      "Energy analytics",
+      "Data governance",
+      "Python or SQL",
+      "BI development",
+      "Scenario modelling",
+      "Responsible AI",
+      "Model governance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-015-Housing-Energy-Efficiency-Retrofit-Prioritisation-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-016",
+    "name": "Community Safety, Crime Demand & Resource Allocation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "GIS / Spatial Analysis",
+      "Public Safety Analytics",
+      "Risk Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Community Safety / Data Analyst",
+      "BI Developer",
+      "GIS / Spatial Analyst",
+      "Risk / Assurance Analyst"
+    ],
+    "sector": "Public Safety / Local Government / Policing",
+    "problem": "Build a longitudinal crime-demand intelligence product that separates persistent change from short-term spikes and supports evidence-led community-safety prioritisation.",
+    "use_case": "Supports Community Safety Partnership meetings by identifying offence-area patterns that merit multi-agency prevention investigation without stigmatising areas from raw volume alone.",
+    "data_source": "Home Office Police Recorded Crime Open Data — Police Force Area tables",
+    "expertise": [
+      "Business analysis",
+      "Public-safety analytics",
+      "Data governance",
+      "Longitudinal analysis",
+      "BI development",
+      "GIS",
+      "Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-016-Community-Safety-Crime-Demand-Resource-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-017",
+    "name": "Flood Defence Asset, Investment & Risk Prioritisation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "GIS / Spatial Analysis",
+      "Investment Analytics",
+      "Risk Analytics"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Flood Risk / Data Analyst",
+      "GIS Analyst",
+      "BI Developer",
+      "Investment / Risk Analyst",
+      "Assurance Analyst"
+    ],
+    "sector": "Environment / Flood Risk / Capital Investment",
+    "problem": "Create a transparent flood-investment portfolio view that helps leaders identify schemes requiring earlier review while making funding, delivery and evidence gaps visible.",
+    "use_case": "Supports capital-programme reviews by showing which schemes need engineering review, funding challenge or additional evidence before investment prioritisation.",
+    "data_source": "Environment Agency FCERM Investment Programme — 2026–27",
+    "expertise": [
+      "Business analysis",
+      "Data governance",
+      "Portfolio analytics",
+      "GIS",
+      "BI development",
+      "Investment analysis",
+      "Risk assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-017-Flood-Defence-Investment-Risk-Prioritisation",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-018",
+    "name": "Government Grants Portfolio, Funding Concentration & Programme Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Programme Evaluation",
+      "Entity Resolution",
+      "Risk Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Programme / Data Analyst",
+      "BI Developer",
+      "Evaluation Analyst",
+      "Risk / Assurance Analyst"
+    ],
+    "sector": "Public Sector / Grants / Programme Management",
+    "problem": "Build a grants-portfolio intelligence product that identifies funding concentration, multi-scheme recipients, possible overlap and under-reach without treating funding value as evidence of impact.",
+    "use_case": "Supports annual portfolio reviews by highlighting patterns that require further due diligence, programme coordination or evaluation before the next funding cycle.",
+    "data_source": "Cabinet Office Government Grants Register — 2024–25 scheme and award data",
+    "expertise": [
+      "Business analysis",
+      "Data governance",
+      "Entity resolution",
+      "Portfolio analytics",
+      "BI development",
+      "Programme evaluation",
+      "Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-018-Government-Grants-Funding-Impact-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-019",
+    "name": "Road Network Demand, Traffic Pressure & Infrastructure Investment Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Data Science",
+      "AI Governance",
+      "GIS / Spatial Analysis",
+      "Transport Analytics",
+      "Forecasting"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Transport / Data Analyst",
+      "GIS Analyst",
+      "BI Developer",
+      "Data Scientist",
+      "AI / Model Governance Analyst"
+    ],
+    "sector": "Transport / Highways / Infrastructure Investment",
+    "problem": "Build a longitudinal road-demand intelligence product that distinguishes persistent traffic pressure from estimated counts, temporary variation and incomplete evidence before capital investment decisions.",
+    "use_case": "Supports transport investment gateway meetings by identifying corridors that warrant deeper congestion, safety or economic assessment rather than automatically recommending expenditure.",
+    "data_source": "DfT Road Traffic Statistics — Count Points and AADF",
+    "expertise": [
+      "Business analysis",
+      "Transport analytics",
+      "Data governance",
+      "Data engineering",
+      "GIS",
+      "BI development",
+      "Forecasting",
+      "Model governance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-019-Road-Network-Demand-Congestion-Investment-Intelligence",
+    "status": "Available"
+  },
+  {
+    "id": "MTL-XF-020",
+    "name": "Housing Market Affordability, Development & Investment Risk Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Data Science",
+      "Policy Analytics",
+      "Economic Analysis",
+      "Scenario Analysis"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Housing / Data Analyst",
+      "BI Developer",
+      "Economist / Policy Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Housing / Economic Development / Investment",
+    "problem": "Build a housing-market intelligence product that distinguishes sustained market pressure from one-period price movement and clearly separates price evidence from true affordability.",
+    "use_case": "Supports housing strategy and development planning by identifying areas that warrant deeper affordability, supply or planning analysis before intervention decisions are considered.",
+    "data_source": "HM Land Registry UK House Price Index — June 2026 full historical CSV",
+    "expertise": [
+      "Business analysis",
+      "Housing analytics",
+      "Data governance",
+      "Time-series analysis",
+      "BI development",
+      "Policy analysis",
+      "Scenario modelling",
+      "Model assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-020-Housing-Market-Affordability-Investment-Risk-Intelligence",
     "status": "Available"
   }
 ]

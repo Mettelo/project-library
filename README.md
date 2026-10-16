@@ -1,44 +1,34 @@
 # Mettelo Project Studio Catalogue
 
-The **Mettelo Project Library** is the discovery layer for our production-style Data, Data Engineering, Data Science, Machine Learning and Artificial Intelligence projects.
+The **Mettelo Project Library** is the discovery layer for Mettelo production-style specialist and cross-functional projects across Data, Engineering, Data Science, AI, Business Analysis, Data Governance, BI and related disciplines.
 
-Each project is built around a realistic organisational problem and links to a dedicated master repository containing the full brief, data guidance, deliverables, acceptance criteria and submission requirements.
+Each project is built around a realistic organisational problem and links to a dedicated master repository containing the full brief, approved data guidance, deliverables, acceptance criteria and submission requirements.
 
 ## Interactive Catalogue
 
-A scalable filterable catalogue has been added under the `docs/` folder.
+The catalogue under `docs/` supports:
 
-It supports filtering by:
+- **Track filtering** — Data Analytics, Data Engineering, Data Science, Artificial Intelligence and Cross-Functional;
+- **Role filtering** — Business Analyst, Data Governance Analyst, Data Engineer, Data Analyst, BI Developer, Data Scientist, AI/Model Governance and project-specific roles;
+- **Sector filtering** — Banking, NHS, Public Sector, Transport, Housing, Energy, Financial Services, Telecoms and more;
+- **Keyword search** — skills, tools, domains, use cases and data sources.
 
-- **Capability / track** — Data Analytics, Data Engineering, Data Science, Machine Learning, Artificial Intelligence, RAG and more
-- **Sector** — Banking, Education, Energy, Transport, Healthcare, Emergency Services and more
-- **Keyword / skill** — Python, SQL, dbt, forecasting, classification, XGBoost, SHAP, embeddings, vector search, etc.
+The catalogue is designed to scale to hundreds of projects.
 
-The catalogue is designed to scale to **hundreds of projects** without turning this README into one very long list.
+### Public catalogue
 
-### GitHub Pages
+https://mettelo.github.io/project-library/
 
-The interactive catalogue is ready for GitHub Pages using the `/docs` folder.
-
-Once GitHub Pages is enabled for this repository with:
-
-**Settings → Pages → Deploy from a branch → main → /docs**
-
-the public catalogue will be available at:
-
-**https://mettelo.github.io/project-library/**
-
-Until Pages is enabled, the catalogue source can be viewed here:
-
-- [Interactive catalogue source](docs/index.html)
+Source:
+- [Interactive catalogue](docs/index.html)
 - [Structured project metadata](docs/projects.json)
 - [Catalogue schema](CATALOGUE_SCHEMA.md)
 
 ## How the Library Works
 
-**Project Library** → discover and filter projects  
-**Master Project Repository** → read the complete project specification  
-**Team Repository** → build, collaborate and submit the solution
+**Project Library** → discover/filter a project  
+**Master Project Repository** → read the full specification and data guidance  
+**Team Delivery Repository** → collaborate, build and submit the solution
 
 ## Current Projects
 
@@ -51,59 +41,67 @@ Until Pages is enabled, the catalogue source can be viewed here:
 | **MTL-DA-005** | [Food Safety Compliance, Inspection Risk & Regulatory Intelligence](https://github.com/Mettelo/MTL-DA-005-Food-Safety-Compliance-Inspection-Risk-Regulatory-Intelligence) | Data Analytics | Public Health / Regulation |
 | **MTL-DE-006** | [UK Road Safety Data Platform](https://github.com/Mettelo/MTL-DE-006-UK-Road-Safety-Data-Platform) | Data Engineering | Public Sector / Transport |
 | **MTL-DE-007** | [UK Companies Registry Data Platform](https://github.com/Mettelo/MTL-DE-007-UK-Companies-Registry-Data-Platform) | Data Engineering | Companies / Business Intelligence |
-| **MTL-DS-008** | [NHS Waiting List Demand Forecasting & Capacity Planning](https://github.com/Mettelo/MTL-DS-008-NHS-Waiting-List-Demand-Forecasting-Capacity-Planning) | Data Science / Forecasting | Healthcare / NHS |
-| **MTL-DS-009** | [London Fire Incident Response Demand & Risk Modelling](https://github.com/Mettelo/MTL-DS-009-London-Fire-Incident-Response-Demand-Risk-Modelling) | Data Science / Machine Learning | Emergency Services / Public Sector |
-| **MTL-AI-010** | [NHS Operational Guidance Knowledge Assistant](https://github.com/Mettelo/MTL-AI-010-NHS-Operational-Guidance-Knowledge-Assistant) | Artificial Intelligence / LLM Engineering | Healthcare / NHS |
+| **MTL-DS-008** | [NHS Waiting List Demand Forecasting & Capacity Planning](https://github.com/Mettelo/MTL-DS-008-NHS-Waiting-List-Demand-Forecasting-Capacity-Planning) | Data Science | Healthcare / NHS |
+| **MTL-DS-009** | [London Fire Incident Response Demand & Risk Modelling](https://github.com/Mettelo/MTL-DS-009-London-Fire-Incident-Response-Demand-Risk-Modelling) | Data Science | Emergency Services / Public Sector |
+| **MTL-AI-010** | [NHS Operational Guidance Knowledge Assistant](https://github.com/Mettelo/MTL-AI-010-NHS-Operational-Guidance-Knowledge-Assistant) | Artificial Intelligence | Healthcare / NHS |
+| **MTL-XF-011** | [Public Procurement Spend, Supplier Concentration & Contract Risk Intelligence](https://github.com/Mettelo/MTL-XF-011-Public-Procurement-Supplier-Contract-Risk-Intelligence) | Cross-Functional | Public Sector / Commercial / Procurement |
+| **MTL-XF-012** | [NHS Workforce Capacity, Retention & Service Sustainability Intelligence](https://github.com/Mettelo/MTL-XF-012-NHS-Workforce-Capacity-Retention-Service-Sustainability) | Cross-Functional | Healthcare / NHS / Workforce |
+| **MTL-XF-013** | [Financial Complaints, Conduct Risk & Customer Harm Intelligence](https://github.com/Mettelo/MTL-XF-013-Financial-Complaints-Conduct-Risk-Customer-Harm-Intelligence) | Cross-Functional | Financial Services / Conduct / Customer Outcomes |
+| **MTL-XF-014** | [Telecom Customer Experience & Provider Performance Intelligence](https://github.com/Mettelo/MTL-XF-014-Telecom-Customer-Experience-Provider-Performance-Intelligence) | Cross-Functional | Telecommunications / Customer Experience |
+| **MTL-XF-015** | [Housing Energy Efficiency, Consumption & Retrofit Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-015-Housing-Energy-Efficiency-Retrofit-Prioritisation-Intelligence) | Cross-Functional | Housing / Energy / Net Zero |
+| **MTL-XF-016** | [Community Safety, Crime Demand & Resource Allocation Intelligence](https://github.com/Mettelo/MTL-XF-016-Community-Safety-Crime-Demand-Resource-Intelligence) | Cross-Functional | Public Safety / Local Government / Policing |
+| **MTL-XF-017** | [Flood Defence Asset, Investment & Risk Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-017-Flood-Defence-Investment-Risk-Prioritisation) | Cross-Functional | Environment / Flood Risk / Capital Investment |
+| **MTL-XF-018** | [Government Grants Portfolio, Funding Concentration & Programme Intelligence](https://github.com/Mettelo/MTL-XF-018-Government-Grants-Funding-Impact-Intelligence) | Cross-Functional | Public Sector / Grants / Programme Management |
+| **MTL-XF-019** | [Road Network Demand, Traffic Pressure & Infrastructure Investment Intelligence](https://github.com/Mettelo/MTL-XF-019-Road-Network-Demand-Congestion-Investment-Intelligence) | Cross-Functional | Transport / Highways / Infrastructure Investment |
+| **MTL-XF-020** | [Housing Market Affordability, Development & Investment Risk Intelligence](https://github.com/Mettelo/MTL-XF-020-Housing-Market-Affordability-Investment-Risk-Intelligence) | Cross-Functional | Housing / Economic Development / Investment |
 
-## Scalable Catalogue Structure
+## Cross-Functional Series
 
-The filterable catalogue reads project information from:
+Projects **MTL-XF-011 to MTL-XF-020** are intentionally multidisciplinary. They combine roles such as Business Analysis, Data Governance, Data Engineering, Data Analysis, BI Development, Data Science, AI/Model Governance, Assurance and domain specialists.
 
-`docs/projects.json`
+The objective is to reproduce the dependencies found in real delivery teams rather than treating each project as a single-role exercise.
 
-Every project has structured metadata including:
+## Catalogue Metadata
 
-- Project ID
-- Project name
-- Primary track
-- Capability tags
-- Sector
-- Problem being solved
-- Expertise required
-- Recommended team size
-- Repository link
-- Status
+`docs/projects.json` stores structured metadata including:
 
-When the library grows to 50, 100, 200 or 300 projects, a new project only needs to be added to the structured catalogue data and it becomes searchable/filterable automatically.
+- project ID and title;
+- primary track;
+- capabilities;
+- delivery roles;
+- sector;
+- business problem;
+- practical use case;
+- approved data source;
+- expertise;
+- recommended team size;
+- master repository link;
+- status.
 
-See [CATALOGUE_SCHEMA.md](CATALOGUE_SCHEMA.md) for the required fields.
+See [CATALOGUE_SCHEMA.md](CATALOGUE_SCHEMA.md).
 
 ## Team Delivery Model
 
-Mettelo projects are being standardised around **3–4 person teams**.
+The team size is defined by each master project. Specialist projects generally use smaller teams; the cross-functional series uses larger teams because multiple delivery disciplines are expected.
 
-Each participating team creates its own delivery repository and uses it to evidence:
+Each participating team creates its delivery repository under the **Mettelo GitHub organisation** and uses it to evidence:
 
-- technical and analytical work;
-- collaboration;
-- issues, branches and pull requests;
+- technical and analytical delivery;
+- business analysis and requirements where applicable;
+- data governance;
+- collaboration through issues, branches and pull requests;
 - documentation;
 - final outputs;
 - acceptance-criteria completion;
+- assurance/UAT;
 - technical handover;
-- final submission.
+- individual contribution.
 
 ## Who Is This For?
 
-The Project Studio is designed for people who want evidence of capability through realistic team projects rather than classroom exercises.
+The Project Studio is designed for people who want evidence of capability through realistic team delivery rather than classroom exercises.
 
-It is suitable for:
-
-- professionals building practical experience;
-- people strengthening their portfolio;
-- career changers;
-- analysts moving into engineering, data science or AI;
-- professionals who want evidence of end-to-end delivery and collaboration.
+It supports professionals building experience, career changers, analysts moving into engineering/data science/AI, and people developing capability in Business Analysis, Data Governance, BI, assurance and related roles.
 
 ## Connect with Mettelo
 
