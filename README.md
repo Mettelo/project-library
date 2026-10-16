@@ -72,7 +72,7 @@ Projects **MTL-XF-011 to MTL-XF-030** are intentionally multidisciplinary. They 
 
 The objective is to reproduce the dependencies found in real delivery teams rather than treating each project as a single-role exercise.
 
-The recommended team size for 021–030 is **6–8**, following the existing Cross-Functional delivery model. Roles may be combined within a team. These ten repository names have been verified on GitHub; their catalogue briefs follow the agreed project plan while the master specifications are being populated.
+Projects 021–030 have **eight-week, 6–8-person simulated client briefs** in their master repositories. Each README explains the organisational setting, immediate planning need, accountable stakeholder and practical management use case. The accompanying business context and project brief specify the evidence pack and action record the team must hand over. Operational gains are proposed benefits to evaluate, not claimed results.
 
 ## Catalogue Metadata
 

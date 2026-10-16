@@ -782,8 +782,8 @@
       "Assurance Analyst"
     ],
     "sector": "Education / Local Government",
-    "problem": "A regional education directorate cannot distinguish structural persistent absence from short-term variation or identify which phases and pupil groups need limited attendance-support resources most.",
-    "use_case": "Support termly attendance reviews by identifying local-authority, phase and pupil-group patterns requiring investigation and early-intervention planning; aggregate data does not identify individual pupils.",
+    "problem": "A regional education directorate must allocate limited attendance-review capacity, but separate absence and pupil-group reports leave leaders unable to distinguish persistent phase-level problems from temporary spikes or high volumes in large authorities.",
+    "use_case": "At the termly review, compare rate-first and burden-first LA/phase shortlists, inspect supported FSM/SEN disparities, and assign each accepted case to an Attendance or Inclusion Lead with an evidence request and next-review date.",
     "data_source": "DfE Pupil Absence — geographic and pupil-characteristics CSV datasets",
     "expertise": [
       "Business analysis",
@@ -824,8 +824,8 @@
       "Finance Analyst"
     ],
     "sector": "Housing / Local Government",
-    "problem": "A council partnership faces rising temporary-accommodation pressure but cannot separate demand growth, prevention outcomes, relief-duty pressure and prolonged stays.",
-    "use_case": "Support housing-service redesign and prevention planning by identifying where prevention, accommodation supply or further investigation of long stays is needed.",
+    "problem": "A council partnership needs to choose between prevention-pathway, relief-service and accommodation-supply investigations, but its quarterly reports mix duties, ended-duty outcomes and quarter-end accommodation stock.",
+    "use_case": "Use England trends and the January–March 2026 LA snapshot to create separate pathway and placement/supply review queues, each with a Housing Options or Accommodation owner and a defined request for local casework, supply or cost evidence.",
     "data_source": "MHCLG Statutory Homelessness — England time series and detailed local-authority data, January–March 2026",
     "expertise": [
       "Business analysis",
@@ -865,8 +865,8 @@
       "Risk / Assurance Analyst"
     ],
     "sector": "Public Sector / Local Government / Finance",
-    "problem": "A council finance directorate needs to identify services driving persistent expenditure growth and where medium-term financial plans require deeper challenge.",
-    "use_case": "Support medium-term financial planning and service-prioritisation reviews using comparable revenue-outturn trends; assess funding gaps or budget variance only with additional funding and budget evidence.",
+    "problem": "A council finance directorate must challenge service-spending assumptions for its medium-term plan, but headline growth rankings obscure service drivers, different council responsibilities and reorganisation effects.",
+    "use_case": "In the financial-plan challenge meeting, use reconciled service-spend bridges and like-for-like peers to assign specific questions to service finance leads, separating supported expenditure pressure from funding/reserve evidence gaps and invalid comparisons.",
     "data_source": "MHCLG Revenue Outturn time-series CSV — 2017/18–2025/26",
     "expertise": [
       "Business analysis",
@@ -907,8 +907,8 @@
       "Evaluation Analyst"
     ],
     "sector": "Education / Skills / Workforce",
-    "problem": "A regional skills authority lacks a clear view of changes in apprenticeship starts, participation and achievements across age, level and geographic segments.",
-    "use_case": "Support skills-funding and employer-engagement planning by highlighting weakening segments; aggregate annual starts and achievements must not be presented as linked learner completion rates.",
+    "problem": "A regional skills authority needs to target employer outreach and participation support, but separate apprenticeship reports blur falling entrant volumes, age/level mix changes and incomplete-year reporting.",
+    "use_case": "At the quarterly skills review, compare completed-year count and population-rate signals, maintain a separate provisional watchlist, and commission segment-specific outreach or linked learner enquiries without mislabelling aggregate ratios as completion rates.",
     "data_source": "DfE Apprenticeships — geography, starts, participation, achievements and population CSV, 2020/21–2025/26",
     "expertise": [
       "Business analysis",
@@ -949,8 +949,8 @@
       "Model Governance / Assurance"
     ],
     "sector": "Business / Economic Development / Financial Services",
-    "problem": "An economic-development team cannot clearly identify where business distress is becoming concentrated by sector, geography and insolvency type.",
-    "use_case": "Support economic-resilience monitoring and prioritise further business-support investigation using long-run trends and record-level patterns, without interpreting insolvency counts as business failure rates without denominators.",
+    "problem": "An economic-development team must decide whether insolvency increases justify targeted support enquiries, but headline counts can conceal procedure changes, connected-company events and gaps in industry or recorded-location coverage.",
+    "use_case": "At the monthly resilience meeting, compare national procedure trends with supported event-level concentrations, test three-/six-month persistence, and assign sector or location evidence requests before redirecting business-support activity.",
     "data_source": "Insolvency Service Company Insolvency Statistics — June 2026 long-run CSV and England, Wales and Scotland record-level ZIP",
     "expertise": [
       "Business analysis",
@@ -991,8 +991,8 @@
       "Data Scientist"
     ],
     "sector": "Transport / Aviation / Operations",
-    "problem": "An airport operations team needs to distinguish persistent airport and airline delay patterns from isolated poor months and changing flight mix.",
-    "use_case": "Support operational-performance reviews and resilience planning by comparing weighted punctuality and delay patterns across the frozen monthly cohort; causal attribution requires additional operational evidence.",
+    "problem": "An airport operations directorate needs to choose resilience investigations, but unweighted route summaries and mixed cancellation/delay measures can push low-volume outliers ahead of persistent, higher-volume airport/airline problems.",
+    "use_case": "In the monthly resilience review, inspect flight-weighted January–August 2026 cases under 100/250-flight gates, then assign stable signals to an Operations Lead for schedule, weather and disruption evidence before agreeing any remedy.",
     "data_source": "Civil Aviation Authority (CAA) punctuality — monthly full-analysis CSVs, January–August 2026",
     "expertise": [
       "Business analysis",
@@ -1033,9 +1033,9 @@
       "Risk Analyst"
     ],
     "sector": "Trade / Economic Development / Public Sector",
-    "problem": "An economic-development board needs to assess regional trade exposure and whether dependence on a few export markets or product groups creates concentration risk.",
-    "use_case": "Support regional trade reviews using the core time series; quantify destination or product concentration and diversification opportunities only when the relevant HMRC breakdowns are added.",
-    "data_source": "HMRC Regional Trade in Goods — England trade-in-goods quarterly time-series ODS, Q1 2021 onward; HMRC country/product breakdowns for concentration analysis",
+    "problem": "A regional trade board must target export-support enquiries, but England totals and broad partner groups do not identify which English regions or product sections face exposure, or which individual destination markets need diversification.",
+    "use_case": "Use the required HMRC regional tables in the quarterly board review to compare regional goods activity and supported product-section exposure, assign outreach-scoping cases, and request country detail before making destination-market recommendations.",
+    "data_source": "HMRC Regional Trade in Goods — England Figure 1 context ODS plus required Q2 2026 regional accompanying ODS; detailed country extracts are optional extensions",
     "expertise": [
       "Business analysis",
       "Data governance",
@@ -1076,8 +1076,8 @@
       "AI / Model Governance Analyst"
     ],
     "sector": "Environment / Net Zero / Local Government",
-    "problem": "A combined authority cannot clearly separate structural emissions, sector mix and realistic local influence when choosing decarbonisation priorities.",
-    "use_case": "Support net-zero programme reviews by identifying high-emission sectors, slow reductions and local areas warranting feasibility assessment before intervention or funding decisions.",
+    "problem": "A combined authority must decide where to commission decarbonisation feasibility work, but a territorial emissions ranking does not show which sources it can influence or whether historical reductions reflect local action.",
+    "use_case": "At the net-zero programme meeting, compare LA/sector emissions scale and trend, challenge a separate local-influence assessment under two weight sets, and commission owner-led cost and delivery enquiries before investment appraisal.",
     "data_source": "DESNZ UK local-authority greenhouse-gas emissions — 2005–2024 data-tables XLSX",
     "expertise": [
       "Business analysis",
@@ -1119,9 +1119,9 @@
       "Model Governance / Assurance"
     ],
     "sector": "Healthcare / NHS / Operations",
-    "problem": "An NHS planning directorate needs to distinguish sustained changes in elective and non-elective activity, admissions and outpatient demand from short-term variation.",
-    "use_case": "Support operational and service-planning reviews using historical hospital activity trends; capacity constraints and patient-flow causes require additional bed, staffing or pathway evidence.",
-    "data_source": "NHS England HES Monthly Activity Report — full historical CSV, April 2018–March 2026",
+    "problem": "A hospital planning directorate must decide which activity changes need operational investigation, but mixed units, cumulative snapshots and revisions can turn a headline volume movement into an unsupported capacity claim.",
+    "use_case": "At the monthly review, validate sustained elective/non-elective stream changes against a declared baseline, then assign waiting-list, workforce, bed or data-resolution evidence requests. Provider and outpatient recommendations require verified additional coverage.",
+    "data_source": "NHS England HES Monthly Activity Report — intended April 2018–March 2026 historical input; validated historical and 2025/26 MAR CSV fallback per source register",
     "expertise": [
       "Business analysis",
       "Data governance",
@@ -1161,8 +1161,8 @@
       "Risk / Assurance Analyst"
     ],
     "sector": "Environment / Water / Regulation",
-    "problem": "An environmental authority lacks a governed view of weak ecological and chemical classifications, recorded measures and water bodies requiring further investigation.",
-    "use_case": "Support catchment intervention reviews by combining classification and measures evidence, exposing coverage gaps and prioritising investigation; recorded measures do not prove environmental improvement.",
+    "problem": "A catchment authority must choose environmental investigations, but repeated classification elements and broad measures links obscure whether a case needs ecological review, better evidence or a measure-delivery check.",
+    "use_case": "At the catchment programme meeting, compare same-cycle ecological-condition and evidence-gap queues, verify body/measure linkages, and assign specialist or delivery-status enquiries without presenting recorded measures as completed remediation.",
     "data_source": "Environment Agency Catchment Data Explorer — England classifications.csv and measures.csv",
     "expertise": [
       "Business analysis",
