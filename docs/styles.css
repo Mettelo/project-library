@@ -187,8 +187,7 @@ button:hover{background:var(--indigo)}
   color:var(--slate);
   margin-bottom:14px;
 }
-.problem{margin:0 0 12px}
-.use-case{margin:0 0 12px;color:#3E4654;font-size:.92rem}
+.project-brief{margin:0 0 16px;line-height:1.65}
 .data-source{font-size:.84rem;color:var(--slate);margin:0 0 13px;padding:9px 10px;background:#F7F3E8;border-left:3px solid var(--amber);border-radius:4px}
 .roles{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
 .role-chip{font-size:.75rem;background:#EEF0F7;border:1px solid #CDD0DE;padding:4px 7px;border-radius:999px;color:var(--indigo);font-weight:650}

@@ -12,6 +12,7 @@ Each project in `docs/projects.json` should contain:
 | `capabilities` | Searchable capability/skill tags |
 | `roles` | Delivery roles practised in the project; drives the Role filter |
 | `sector` | Industry/domain; separate multiple sectors with ` / ` so each appears in the Sector filter |
+| `brief` | Plain-language card summary: the organisation’s specific problem and what the team builds; also searchable |
 | `problem` | Concise statement of the organisational problem |
 | `use_case` | How a stakeholder would use the finished product |
 | `data_source` | Approved core dataset/source |
@@ -41,3 +42,7 @@ Repository names were verified against the Mettelo organisation. Titles, problem
 ## Pagination and sorting
 
 The catalogue shows 10 projects per page, with Previous and Next controls above and below the cards. Filtering and sorting apply to the full matching set before pagination. Changing a filter, keyword or sort returns to page 1. Reset clears filters and restores ascending project-number order. Sort choices cover project number in both directions, title A–Z/Z–A, track and sector; project number breaks ties. Navigation is hidden for ten or fewer matches and disabled at page boundaries.
+
+## Card writing
+
+Each card displays one Project brief rather than separate problem and use-case paragraphs. Use two or three plain-language sentences explaining who needs the project, the specific problem and the expected product. Keep detailed management scenarios in the master specification. Retain problem and use_case metadata for search and structured reuse.

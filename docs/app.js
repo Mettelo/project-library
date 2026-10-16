@@ -10,7 +10,7 @@ function sectors(project){return (project.sector||"").split("/").map(s=>s.trim()
 function matches(project){
   const q=normalise(state.search);
   const hay=[
-    project.id,project.name,project.track,project.sector,project.problem,project.use_case,project.data_source,
+    project.id,project.name,project.track,project.sector,project.brief,project.problem,project.use_case,project.data_source,
     ...(project.capabilities||[]),...(project.roles||[]),...(project.expertise||[])
   ].join(" ").toLowerCase();
 
@@ -27,7 +27,6 @@ function card(p){
   const tags=(p.capabilities||[]).slice(0,7).map(x=>'<span class="tag">'+esc(x)+'</span>').join("");
   const roles=(p.roles||[]).map(x=>'<span class="role-chip">'+esc(x)+'</span>').join("");
   const expertise=(p.expertise||[]).join(" · ");
-  const useCase=p.use_case?'<p class="use-case"><strong>Use case:</strong> '+esc(p.use_case)+'</p>':"";
   const dataSource=p.data_source?'<div class="data-source"><strong>Data:</strong> '+esc(p.data_source)+'</div>':"";
   return `
   <article class="card">
@@ -37,8 +36,7 @@ function card(p){
     </div>
     <h3>${esc(p.name)}</h3>
     <div class="sector">${esc(p.sector)}</div>
-    <p class="problem">${esc(p.problem)}</p>
-    ${useCase}
+    <p class="project-brief"><strong>Project brief:</strong> ${esc(p.brief||p.problem)}</p>
     ${dataSource}
     <div class="roles">${roles}</div>
     <div class="tags">${tags}</div>

@@ -30,7 +30,8 @@
       "BI Developer"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A retail bank needs to understand which customers and portfolio segments are performing well and where commercial or risk patterns need attention. Build a customer and portfolio dashboard that brings behaviour, segmentation and key performance measures into one view."
   },
   {
     "id": "MTL-DA-002",
@@ -63,7 +64,8 @@
       "BI Developer"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A digital education provider needs to identify where student engagement is weakening and how it relates to retention and academic outcomes. Build a cohort-analysis dashboard that highlights groups requiring further support investigation."
   },
   {
     "id": "MTL-DA-003",
@@ -96,7 +98,8 @@
       "BI Developer"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "An energy organisation needs to understand when customers consume energy and how demand differs across tariffs and customer groups. Build a smart-meter analysis and dashboard showing consumption patterns, demand peaks and segments that need closer review."
   },
   {
     "id": "MTL-DA-004",
@@ -129,7 +132,8 @@
       "GIS / Spatial Analyst"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A transport authority needs to identify recurring collision and casualty patterns so road-safety investigations can be better targeted. Build an analysis and dashboard showing where, when and under which recorded conditions serious safety concerns occur."
   },
   {
     "id": "MTL-DA-005",
@@ -163,7 +167,8 @@
       "Data Quality Analyst"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A food-safety regulator needs to identify establishments and areas requiring closer compliance attention. Build an inspection and hygiene-performance dashboard that highlights poor ratings, inspection patterns and data gaps to support review priorities."
   },
   {
     "id": "MTL-DE-006",
@@ -200,7 +205,8 @@
       "Data Quality Analyst"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "Road-safety analysts need reliable collision, vehicle and casualty tables before they can investigate safety patterns. Build a repeatable data pipeline that validates and joins the official datasets, producing documented tables ready for analysis."
   },
   {
     "id": "MTL-DE-007",
@@ -237,7 +243,8 @@
       "Data Quality Analyst"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A business-intelligence team needs consistent company and filing information without repeatedly collecting records by hand. Build a Companies House data platform that handles API collection, pagination, refreshes and quality checks, then produces tables ready for analysis."
   },
   {
     "id": "MTL-DS-008",
@@ -271,7 +278,8 @@
       "Data Analyst"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "An NHS planning team needs to understand how waiting-list pressure could develop so it can examine future capacity needs. Build and backtest a waiting-list forecast, explain its uncertainty and translate the results into planning scenarios."
   },
   {
     "id": "MTL-DS-009",
@@ -308,7 +316,8 @@
       "Model Governance / Assurance"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "A fire-service planning team needs to understand which recorded incident characteristics are associated with higher response demand. Build an explainable classification model and assess its reliability so planners can investigate demand patterns responsibly."
   },
   {
     "id": "MTL-AI-010",
@@ -347,7 +356,8 @@
       "AI Governance / Assurance"
     ],
     "use_case": "",
-    "data_source": ""
+    "data_source": "",
+    "brief": "NHS staff need a clearer way to find answers in approved operational and statistical guidance. Build a knowledge assistant that retrieves relevant evidence, cites its sources and declines to answer when the guidance does not support a reliable response."
   },
   {
     "id": "MTL-XF-011",
@@ -386,7 +396,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-011-Public-Procurement-Supplier-Contract-Risk-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A public-sector commercial team needs to identify supplier dependency, fragmented purchasing and upcoming contract workload across its procurement portfolio. Build a Contracts Finder dashboard and review pack that highlights contracts and suppliers requiring further commercial investigation."
   },
   {
     "id": "MTL-XF-012",
@@ -426,7 +437,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-012-NHS-Workforce-Capacity-Retention-Service-Sustainability",
-    "status": "Available"
+    "status": "Available",
+    "brief": "An NHS workforce team needs to distinguish staffing capacity pressure from retention problems across its workforce. Build a workforce dashboard that separates headcount, full-time-equivalent staffing and turnover, with evidence for recruitment, retention or service-redesign enquiries."
   },
   {
     "id": "MTL-XF-013",
@@ -465,7 +477,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-013-Financial-Complaints-Conduct-Risk-Customer-Harm-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A financial-services conduct team needs to identify where complaint patterns may indicate customer-outcome problems. Build a complaints dashboard that separates volume, rates, upheld outcomes and closure performance so firms or products can be selected for further review."
   },
   {
     "id": "MTL-XF-014",
@@ -505,7 +518,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-014-Telecom-Customer-Experience-Provider-Performance-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A telecom customer-experience team needs to identify providers and services with recurring complaint deterioration. Build a multi-quarter performance dashboard that distinguishes persistent patterns from short-term spikes and supports focused service-quality investigation."
   },
   {
     "id": "MTL-XF-015",
@@ -547,7 +561,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-015-Housing-Energy-Efficiency-Retrofit-Prioritisation-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A housing investment team needs to decide which property segments deserve further retrofit assessment. Build an explainable prioritisation tool using property characteristics, energy consumption and efficiency-measure evidence, with alternative scenarios for feasibility review."
   },
   {
     "id": "MTL-XF-016",
@@ -587,7 +602,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-016-Community-Safety-Crime-Demand-Resource-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A community-safety partnership needs to identify offence and area patterns that deserve prevention investigation. Build a crime-demand dashboard that separates persistent change from short-term spikes and makes the evidence behind review priorities clear."
   },
   {
     "id": "MTL-XF-017",
@@ -628,7 +644,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-017-Flood-Defence-Investment-Risk-Prioritisation",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A flood-investment team needs to identify which schemes require earlier engineering, funding or delivery review. Build a programme dashboard that brings investment plans, delivery information and evidence gaps together to support a transparent review queue."
   },
   {
     "id": "MTL-XF-018",
@@ -668,7 +685,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-018-Government-Grants-Funding-Impact-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A government grants team needs to understand funding concentration, repeated recipients and possible overlap across schemes. Build a grants-portfolio dashboard and review pack that highlights due-diligence and evaluation questions without treating funding value as proof of impact."
   },
   {
     "id": "MTL-XF-019",
@@ -712,7 +730,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-019-Road-Network-Demand-Congestion-Investment-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A highways team needs to identify where sustained traffic pressure warrants deeper infrastructure assessment. Build a road-demand dashboard that separates persistent patterns from temporary variation and estimated counts, then identifies corridors requiring further evidence."
   },
   {
     "id": "MTL-XF-020",
@@ -755,7 +774,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-020-Housing-Market-Affordability-Investment-Risk-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A housing strategy team needs to identify areas where sustained market-price pressure warrants closer affordability or development analysis. Build a housing-market dashboard and investigation shortlist, making clear which income, supply or planning evidence is still needed."
   },
   {
     "id": "MTL-XF-021",
@@ -797,7 +817,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-021-School-Attendance-Persistent-Absence-Early-Intervention-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "An education directorate needs to decide where limited attendance-support resources should be focused. Build an attendance dashboard and review shortlist that identifies persistent absence by local authority and school phase, compares rates with affected-enrolment counts, and examines pupil-group gaps where the data supports them."
   },
   {
     "id": "MTL-XF-022",
@@ -839,7 +860,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-022-Homelessness-Temporary-Accommodation-Prevention-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A council housing partnership needs to understand whether homelessness pressure calls for a prevention-pathway review or an accommodation-supply enquiry. Build a dashboard that separates new duties, duty-ending outcomes and households in temporary accommodation, with distinct investigation lists for Housing Options and accommodation teams."
   },
   {
     "id": "MTL-XF-023",
@@ -880,7 +902,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-023-Local-Government-Financial-Resilience-Service-Pressure-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A council finance team needs to understand which services are driving expenditure growth before challenging its medium-term financial plan. Build a service-spending dashboard and change analysis that compares councils with similar responsibilities and identifies specific service lines requiring further finance review."
   },
   {
     "id": "MTL-XF-024",
@@ -922,7 +945,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-024-Apprenticeship-Skills-Pipeline-Participation-Achievement-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A regional skills authority needs to decide which apprenticeship groups require participation support or employer outreach. Build a dashboard comparing starts, participation and achievements across supported areas, ages and levels, with completed years separated from provisional figures and no unsupported completion-rate claims."
   },
   {
     "id": "MTL-XF-025",
@@ -964,7 +988,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-025-Business-Insolvency-Sector-Stress-Economic-Resilience-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "An economic-development team needs to identify which insolvency patterns warrant business-support investigation. Build a dashboard of procedure trends and supported industry or recorded-location concentrations, showing whether increases persist and where coding or coverage gaps limit the conclusions."
   },
   {
     "id": "MTL-XF-026",
@@ -1006,7 +1031,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-026-Aviation-Punctuality-Delay-Operational-Resilience-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "An airport operations team needs to identify recurring punctuality and delay problems before choosing resilience investigations. Build a January–August 2026 performance dashboard that weights results by flight volumes, separates cancellations from delay and highlights airport/airline patterns that remain concerning across months."
   },
   {
     "id": "MTL-XF-027",
@@ -1048,7 +1074,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-027-Regional-Trade-Exposure-Export-Concentration-Market-Diversification-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A regional trade board needs to identify which English regions and broad product groups require closer export-support review. Build a trade dashboard using the required regional HMRC tables to show changes in goods trade and supported concentration patterns; individual destination-market recommendations need additional country detail."
   },
   {
     "id": "MTL-XF-028",
@@ -1091,7 +1118,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-028-Local-Net-Zero-Emissions-Decarbonisation-Prioritisation-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A combined authority needs to decide which places and sectors deserve decarbonisation feasibility work. Build an emissions dashboard and prioritisation tool that compares emissions scale and trend with a separate assessment of local influence, producing cases for further cost and delivery investigation."
   },
   {
     "id": "MTL-XF-029",
@@ -1134,7 +1162,8 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-029-NHS-Hospital-Activity-Demand-Flow-Capacity-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A hospital planning team needs to identify sustained changes in elective and non-elective activity before deciding what operational evidence to request. Build a dashboard of verified activity trends and baseline comparisons, with a review list that separates observed changes from untested bed, workforce or waiting-list explanations."
   },
   {
     "id": "MTL-XF-030",
@@ -1176,6 +1205,7 @@
     ],
     "team_size": "6–8",
     "repository": "https://github.com/Mettelo/MTL-XF-030-River-Water-Quality-Classification-Environmental-Intervention-Intelligence",
-    "status": "Available"
+    "status": "Available",
+    "brief": "A catchment authority needs to decide which water bodies require ecological review, better evidence or a check on planned measures. Build a dashboard of comparable classification records and supported measures links, with separate investigation queues for weak ecological condition and missing evidence."
   }
 ]
