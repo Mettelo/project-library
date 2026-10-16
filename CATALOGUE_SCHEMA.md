@@ -11,7 +11,7 @@ Each project in `docs/projects.json` should contain:
 | `track` | Primary track, e.g. Data Analytics, Data Engineering, Data Science, Artificial Intelligence, Cross-Functional |
 | `capabilities` | Searchable capability/skill tags |
 | `roles` | Delivery roles practised in the project; drives the Role filter |
-| `sector` | Industry/domain |
+| `sector` | Industry/domain; separate multiple sectors with ` / ` so each appears in the Sector filter |
 | `problem` | Concise statement of the organisational problem |
 | `use_case` | How a stakeholder would use the finished product |
 | `data_source` | Approved core dataset/source |
@@ -29,3 +29,11 @@ Each project in `docs/projects.json` should contain:
 5. The interactive catalogue updates automatically.
 
 Avoid manually creating individual HTML cards; the catalogue renders from structured JSON.
+
+## Filter behaviour
+
+Track and Role match their metadata labels. Sector matches an individual slash-separated sector, so selecting Housing finds all Housing projects even when they have different secondary sectors. Keyword search is case-insensitive and requires every search word to appear somewhere in the project metadata. All four filters combine, Reset clears them, and the result count reports matches out of the full catalogue.
+
+## Series 021–030
+
+Repository names were verified against the Mettelo organisation. Titles, problems, use cases and core sources follow the agreed project plan, including the revised Achievement scope for 024, HES hospital activity for 029 and Catchment Data classifications/measures for 030. Team size 6–8 is recommended in line with the existing Cross-Functional series until master briefs specify otherwise. For 027, the England time series alone cannot support country/product concentration analysis; the use case requires the corresponding HMRC breakdowns.

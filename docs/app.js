@@ -6,6 +6,7 @@ function unique(values){return [...new Set(values.filter(Boolean))].sort((a,b)=>
 function fillSelect(el,values,label){
   el.innerHTML='<option value="">'+label+'</option>'+values.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join("");
 }
+function sectors(project){return (project.sector||"").split("/").map(s=>s.trim()).filter(Boolean)}
 function matches(project){
   const q=normalise(state.search);
   const hay=[
@@ -16,7 +17,7 @@ function matches(project){
   const searchOk=!q || q.split(/\s+/).every(term=>hay.includes(term));
   const trackOk=!state.track || project.track===state.track;
   const roleOk=!state.role || (project.roles||[]).includes(state.role);
-  const sectorOk=!state.sector || project.sector===state.sector;
+  const sectorOk=!state.sector || sectors(project).includes(state.sector);
   return searchOk && trackOk && roleOk && sectorOk;
 }
 function esc(v){
@@ -24,7 +25,7 @@ function esc(v){
 }
 function card(p){
   const tags=(p.capabilities||[]).slice(0,7).map(x=>'<span class="tag">'+esc(x)+'</span>').join("");
-  const roles=(p.roles||[]).slice(0,5).map(x=>'<span class="role-chip">'+esc(x)+'</span>').join("");
+  const roles=(p.roles||[]).map(x=>'<span class="role-chip">'+esc(x)+'</span>').join("");
   const expertise=(p.expertise||[]).join(" · ");
   const useCase=p.use_case?'<p class="use-case"><strong>Use case:</strong> '+esc(p.use_case)+'</p>':"";
   const dataSource=p.data_source?'<div class="data-source"><strong>Data:</strong> '+esc(p.data_source)+'</div>':"";
@@ -50,16 +51,17 @@ function card(p){
 }
 function render(){
   const filtered=state.projects.filter(matches);
-  $("#count").textContent=filtered.length+" project"+(filtered.length===1?"":"s");
+  $("#count").textContent=filtered.length+" of "+state.projects.length+" projects";
   $("#cards").innerHTML=filtered.length?filtered.map(card).join(""):'<div class="empty">No projects match those filters. Try another track, role, sector or keyword.</div>';
 }
 async function init(){
-  const res=await fetch("./projects.json");
+  const res=await fetch("./projects.json",{cache:"no-store"});
+  if(!res.ok) throw new Error("Catalogue request failed: "+res.status);
   state.projects=await res.json();
 
   fillSelect($("#track"),unique(state.projects.map(p=>p.track)),"All tracks");
   fillSelect($("#role"),unique(state.projects.flatMap(p=>p.roles||[])),"All roles");
-  fillSelect($("#sector"),unique(state.projects.map(p=>p.sector)),"All sectors");
+  fillSelect($("#sector"),unique(state.projects.flatMap(sectors)),"All sectors");
 
   $("#search").addEventListener("input",e=>{state.search=e.target.value;render()});
   $("#track").addEventListener("change",e=>{state.track=e.target.value;render()});
