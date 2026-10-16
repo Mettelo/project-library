@@ -75,7 +75,7 @@ async function init(){
 
   $("#totalProjects").textContent=state.projects.length;
   $("#totalTracks").textContent=unique(state.projects.map(p=>p.track)).length;
-  $("#totalSectors").textContent=unique(state.projects.map(p=>p.sector)).length;
+  $("#totalSectors").textContent=unique(state.projects.flatMap(sectors)).length;
   render();
 }
 init().catch(err=>{
