@@ -1207,5 +1207,535 @@
     "repository": "https://github.com/Mettelo/MTL-XF-030-River-Water-Quality-Classification-Environmental-Intervention-Intelligence",
     "status": "Available",
     "brief": "A catchment authority needs to decide which water bodies require ecological review, better evidence or a check on planned measures. Build a dashboard of comparable classification records and supported measures links, with separate investigation queues for weak ecological condition and missing evidence."
+  },
+  {
+    "id": "MTL-XF-031",
+    "name": "Ecommerce Conversion, Customer Journey & Optimisation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Conversion Analysis",
+      "Experiment Design",
+      "Customer Journey Analysis",
+      "Classification"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Digital Product Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Retail / Ecommerce",
+    "brief": "An online retailer must choose which traffic and visitor groups deserve its next growth experiments. Build a conversion scorecard, compare volume-led and conversion-gap priorities, and produce three evidence-backed experiment cards.",
+    "problem": "The retailer's growth team must choose its next three product and acquisition experiments. Marketing sees traffic-source totals, while product managers see page-engagement summaries; neither view shows which sufficiently large visitor groups combine weak purchase conversion with meaningful session volume. A high non-purchase count can reflect scale, while a low conversion rate can reflect a small or seasonal group. Spending the next development sprint against the wrong signal risks consuming experiment capacity without a defensible hypothesis.",
+    "use_case": "At the monthly growth meeting, the Head of Ecommerce Growth filters TrafficType and VisitorType, checks conversion, sample size and uncertainty, compares two priority lists, and assigns up to three experiment hypotheses to product or marketing owners. The analyst provides the evidence and measurement design; the meeting decides what to test.",
+    "data_source": "UCI Online Shoppers Purchasing Intention — 12,330 session summaries; not an ordered clickstream",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Conversion Analysis",
+      "Experiment Design",
+      "Customer Journey Analysis",
+      "Classification"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-031-Ecommerce-Conversion-Customer-Journey-Optimisation-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/468/online+shoppers+purchasing+intention+dataset.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-031-Ecommerce-Conversion-Customer-Journey-Optimisation-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-032",
+    "name": "Retail Customer Value, Returns & Product Mix Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Customer Value",
+      "RFM Segmentation",
+      "Commercial Analytics",
+      "Revenue Reconciliation"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Retail Commercial Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Retail / Ecommerce",
+    "brief": "A retailer needs to see which customers, products and markets create value once cancellations and missing customer identities are made visible. Build a reconciled trading ledger, customer RFM profiles and a prioritised retention and merchandising investigation pack.",
+    "problem": "The commercial director must decide where retention and merchandising effort should go next quarter. A product may appear attractive on positive invoice value while generating substantial negative adjustments; a market may appear to have valuable customers while many sales lack customer IDs. The team needs one reconciled commercial ledger before it can compare account value, product concentration and cancellation exposure. Ignoring anonymous lines or deleting negative quantities would produce attractive but misleading totals.",
+    "use_case": "During quarterly trading review, the director compares markets and products on positive value, signed adjustments and customer coverage, then reviews customer RFM groups and approves a ten-item retention/merchandising investigation register.",
+    "data_source": "UCI Online Retail II — two invoice-line worksheets; negative adjustments are not confirmed physical returns",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Customer Value",
+      "RFM Segmentation",
+      "Commercial Analytics",
+      "Revenue Reconciliation"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-032-Retail-Customer-Value-Returns-Product-Mix-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-032-Retail-Customer-Value-Returns-Product-Mix-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-033",
+    "name": "Bank Marketing Propensity & Campaign Efficiency Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Campaign Analytics",
+      "Propensity Modelling",
+      "Cost Scenarios",
+      "Experiment Design"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Campaign Strategy Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Banking / Financial Services",
+    "brief": "A retail bank has capacity to contact only part of its campaign list. Compare random and model-ranked lists at the same 20% contact capacity, quantify response and assumed economics, and design a controlled pilot using pre-contact information.",
+    "problem": "The outbound campaign manager can contact only one fifth of the eligible list in the planning scenario. Selecting customers by a broad demographic profile may waste calls, but selecting on completed-call duration would make a pre-call model look useful using information the caller does not yet know. The bank needs a comparison of contact lists at the same capacity and a transparent view of response concentration, customer contact burden and assumed economics.",
+    "use_case": "Before a term-deposit campaign, marketing compares a fixed random 20% list with a model-ranked 20% list, reviews expected historical response capture and cost scenarios, and approves a consent-screened randomised pilot rather than deploying historical propensity as proven uplift.",
+    "data_source": "UCI Bank Marketing — bank-full.csv, 45,211 records; exclude call duration from pre-contact models",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Campaign Analytics",
+      "Propensity Modelling",
+      "Cost Scenarios",
+      "Experiment Design"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-033-Bank-Marketing-Propensity-Campaign-Efficiency-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-033-Bank-Marketing-Propensity-Campaign-Efficiency-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-034",
+    "name": "Credit Risk, Underwriting & Portfolio Quality Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Credit Risk",
+      "Explainable Modelling",
+      "Cost-Sensitive Classification",
+      "Model Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Credit Risk Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Banking / Financial Services",
+    "brief": "A lender needs to compare missed credit risk with unnecessary manual referrals. Build an explainable screening prototype with corrected outcome coding, three error-cost policies and a modern-data validation plan; recommendations remain human reviewed.",
+    "problem": "The lender's risk team must compare a conservative referral policy with a policy that sends fewer low-risk cases for manual review. Missed bad-credit cases and unnecessary referrals have different consequences, so accuracy alone cannot decide the policy. The historical sample is intentionally enriched with bad credits and uses corrected coding; treating it as today's applicant population would produce an unjustified lending policy.",
+    "use_case": "At model-risk review, the Head of Credit Risk compares transparent screening thresholds under three assumed error-cost ratios, examines bad-credit recall and good-credit referral burden, and decides whether to retain a manual baseline or commission modern validation.",
+    "data_source": "UCI South German Credit — 1,000 historical, deliberately sampled records with corrected codebook",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Credit Risk",
+      "Explainable Modelling",
+      "Cost-Sensitive Classification",
+      "Model Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-034-Credit-Risk-Underwriting-Portfolio-Quality-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/573/south+german+credit+update.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-034-Credit-Risk-Underwriting-Portfolio-Quality-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-035",
+    "name": "Manufacturing Predictive Maintenance & Downtime Risk Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Predictive Maintenance",
+      "Failure Classification",
+      "Inspection Prioritisation",
+      "Operational Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Reliability and Maintenance Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Manufacturing / Industrial Operations",
+    "brief": "A maintenance manager needs to allocate limited inspection capacity. Compare a tool-wear rule with sensor-risk ranking at 2%, 5% and 10% capacity, then produce a reviewed inspection worklist and real-plant validation plan.",
+    "problem": "The plant maintenance manager has limited inspection slots and needs to decide which operating observations deserve attention first. A simple tool-wear trigger is understandable but may miss failure patterns associated with temperature, speed and torque; a model may capture more failures but create unnecessary inspections. The synthetic dataset supports this inspection-allocation comparison, not proof of advance warning, actual downtime reduction or remaining useful life.",
+    "use_case": "In weekly maintenance planning, the manager compares the tool-wear baseline with risk-ranked inspection lists at 2%, 5% and 10% capacity, reviews missed failures and false inspections, and approves a supervised plant-data validation plan.",
+    "data_source": "UCI AI4I 2020 Predictive Maintenance — 10,000 synthetic observations; no validated advance failure horizon",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Predictive Maintenance",
+      "Failure Classification",
+      "Inspection Prioritisation",
+      "Operational Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-035-Manufacturing-Predictive-Maintenance-Downtime-Risk-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/601/ai4i+2020+predictive+maintenance+dataset.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-035-Manufacturing-Predictive-Maintenance-Downtime-Risk-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-036",
+    "name": "B2B Wholesale Customer Segmentation & Account Growth Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Customer Segmentation",
+      "Cluster Stability",
+      "Account Strategy",
+      "Category Analysis"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "B2B Account Strategy Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Wholesale / Retail",
+    "brief": "A wholesale distributor needs account-service propositions that reflect different category-spend patterns. Build interpretable customer segments, test their stability and produce three service propositions plus an evidence-labelled account investigation register.",
+    "problem": "The wholesale sales director must allocate account-manager attention across customers with different annual category mixes. A customer with high total spend but a low category share may warrant a conversation, but low share alone does not establish unmet demand. The team needs understandable groups, evidence that the grouping is stable, and a shortlist account managers can validate before offering a different service or cross-sell proposition.",
+    "use_case": "At quarterly account planning, sales reviews spend profiles and cluster stability, compares them with existing channel groups, and assigns three service propositions and up to ten account-category investigation cases.",
+    "data_source": "UCI Wholesale Customers — 440 annual customer-spend records in monetary units; no growth or churn history",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Customer Segmentation",
+      "Cluster Stability",
+      "Account Strategy",
+      "Category Analysis"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-036-B2B-Wholesale-Customer-Segmentation-Account-Growth-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/292/wholesale+customers.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-036-B2B-Wholesale-Customer-Segmentation-Account-Growth-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-037",
+    "name": "Commercial Building Energy Demand & Efficiency Optimisation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Energy Analytics",
+      "Time Series Forecasting",
+      "Scenario Analysis",
+      "Pilot Design"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Energy and Facilities Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Energy / Facilities Management",
+    "brief": "An energy-services provider needs to decide whether its demand-analysis method is ready for a commercial-site pilot. Use a single-house proxy to compare next-interval forecasts and three scheduling hypotheses, with explicit tariff, comfort and transfer-validation limits.",
+    "problem": "The energy-services provider must decide whether its demand-analysis method is credible enough to take into a commercial customer pilot. High-consumption windows may identify scheduling hypotheses, but confusing interval energy with power or leaking same-interval measurements into a forecast would exaggerate usefulness. Because the source is one house, the commercial decision is whether and how to validate the method at a customer site, not whether a commercial saving has already been established.",
+    "use_case": "The Commercial Energy Services Director reviews interval-energy quality, next-interval forecast errors and three scheduling hypotheses, then commissions a monitored commercial-site pilot with occupancy, tariff and comfort data.",
+    "data_source": "UCI Appliances Energy Prediction — 19,735 ten-minute observations from one residential building used as a commercial-method prototype",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Energy Analytics",
+      "Time Series Forecasting",
+      "Scenario Analysis",
+      "Pilot Design"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-037-Commercial-Building-Energy-Demand-Efficiency-Optimisation-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/374/appliances+energy+prediction.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-037-Commercial-Building-Energy-Demand-Efficiency-Optimisation-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-038",
+    "name": "Manufacturing Quality, Defect Detection & Process Assurance Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Fault Classification",
+      "Quality Analytics",
+      "Confidence-Based Routing",
+      "Model Assurance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Manufacturing Quality Analyst",
+      "Data Scientist",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Manufacturing / Quality Assurance",
+    "brief": "A steel quality team needs consistent routing of known faults without sending every case for specialist review. Build a seven-class classifier, analyse error pairs and confidence thresholds, and produce inspection handover and process-investigation cards.",
+    "problem": "The quality manager needs consistent routing of already detected steel-plate faults to the right inspection specialist. Misclassifying two similar fault types can delay investigation, while routing every example manually consumes specialist capacity. The dataset can compare seven-class routing and low-confidence referral; it cannot establish how many normal plates pass inspection or estimate a factory-wide defect rate.",
+    "use_case": "At weekly quality review, inspectors examine the top confusion pairs, compare confidence thresholds and choose an offline fault-routing prototype with a specialist-review queue and three process-investigation hypotheses.",
+    "data_source": "UCI Steel Plates Faults — 1,941 known-fault examples; no normal plates or factory-wide defect-rate denominator",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Fault Classification",
+      "Quality Analytics",
+      "Confidence-Based Routing",
+      "Model Assurance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-038-Manufacturing-Quality-Defect-Detection-Process-Assurance-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/198/steel+plates+faults.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-038-Manufacturing-Quality-Defect-Detection-Process-Assurance-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-039",
+    "name": "Enterprise Vulnerability Exposure & Patch Prioritisation Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Vulnerability Management",
+      "CVE Analysis",
+      "Patch Prioritisation",
+      "CPE Matching",
+      "Security Governance"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "Vulnerability Management Analyst",
+      "Cyber Risk Analyst",
+      "Security Assurance Analyst"
+    ],
+    "sector": "Information Security / Cyber Risk",
+    "brief": "A security team has more vulnerabilities than it can review and patch at once. Combine a frozen NVD cohort with a clearly synthetic 20-asset inventory, validate product/version matches and build an exposure-aware patch queue, remediation policy and exception runbook.",
+    "problem": "The enterprise security team must decide what goes into the next patch-review meeting when vulnerability volume exceeds available analyst and change-window capacity. A critical CVSS score may concern software that is not installed; a moderate score may affect an internet-facing critical service. Incomplete version matching can create false exposure, and missing severity can hide work. The engagement must separate public vulnerability intelligence from explicitly synthetic asset exposure and turn both into an auditable review and exception process.",
+    "use_case": "At weekly patch review, analysts validate CVE/product/version matches against a synthetic twenty-asset inventory, compare severity-only and exposure-aware queues, assign remediation owners and inspect dated ticket/exception scenarios.",
+    "data_source": "NIST NVD CVE JSON 2.0 — frozen 2024 identifier-year feed plus explicitly synthetic asset and ticket fixtures",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Vulnerability Management",
+      "CVE Analysis",
+      "Patch Prioritisation",
+      "CPE Matching",
+      "Security Governance"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.json.gz"
+      },
+      {
+        "label": "Checksum metadata",
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.meta"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence/blob/main/data/SOURCE_REGISTER.md"
+  },
+  {
+    "id": "MTL-XF-040",
+    "name": "Phishing URL Detection & Security Triage Intelligence",
+    "track": "Cross-Functional",
+    "capabilities": [
+      "Business Analysis",
+      "Data Governance",
+      "Data Engineering",
+      "Data Analytics",
+      "BI Development",
+      "Phishing Detection",
+      "SOC Triage",
+      "Domain-Isolated Evaluation",
+      "False Positive Management",
+      "Incident Response"
+    ],
+    "roles": [
+      "Business Analyst",
+      "Data Governance Analyst",
+      "Data Engineer",
+      "Data Analyst",
+      "BI Developer",
+      "SOC Analyst",
+      "Threat Intelligence Analyst",
+      "Data Scientist",
+      "Security Governance Analyst",
+      "Model Governance / Assurance"
+    ],
+    "sector": "Information Security / Security Operations",
+    "brief": "A commercial SOC needs to prioritise suspicious URLs without overwhelming analysts with legitimate alerts. Build an offline lexical detection comparison, domain-disjoint evaluation and three-band triage playbook with a declared false-positive target and defanged case evidence.",
+    "problem": "The SOC manager needs a triage workflow that captures suspicious URLs without overwhelming analysts with legitimate alerts. An apparently strong classifier can be misleading if legitimate and phishing labels are reversed, domains appear in both training and test, or webpage-derived signals are presented as available when the URL first arrives. The team must evaluate an offline receipt-time feature set, quantify review burden and define human escalation for uncertain and missed cases.",
+    "use_case": "At daily SOC review, an analyst inspects high-risk and intermediate bands, reviews defanged examples and false positives/negatives, and follows a documented evidence-preservation and incident-response handoff. No listed URL is opened.",
+    "data_source": "UCI PhiUSIIL Phishing URL Dataset — 235,795 records; legitimate=1 and phishing=0; offline analysis only",
+    "expertise": [
+      "Business requirements",
+      "Source governance",
+      "Python or SQL",
+      "Data modelling",
+      "Dashboarding",
+      "Phishing Detection",
+      "SOC Triage",
+      "Domain-Isolated Evaluation",
+      "False Positive Management",
+      "Incident Response"
+    ],
+    "team_size": "6–8",
+    "repository": "https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence",
+    "status": "Available",
+    "data_downloads": [
+      {
+        "label": "Download dataset",
+        "url": "https://archive.ics.uci.edu/static/public/967/phiusiil+phishing+url+dataset.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence/blob/main/data/SOURCE_REGISTER.md"
   }
 ]

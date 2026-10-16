@@ -13,7 +13,7 @@ The catalogue under `docs/` supports:
 - **Sector filtering** — individual sectors within combined labels, including Banking, NHS, Public Sector, Transport, Housing, Energy, Financial Services, Telecoms and more;
 - **Keyword search** — project IDs, titles, roles, skills, tools, business problems, use cases and data sources; multiple words narrow results together.
 
-The catalogue currently contains **30 projects** across five tracks, including **20 Cross-Functional projects** (MTL-XF-011–030).
+The catalogue currently contains **40 projects** across five tracks, including **30 Cross-Functional projects** (MTL-XF-011–040).
 
 ### Public catalogue
 
@@ -54,7 +54,6 @@ Source:
 | **MTL-XF-018** | [Government Grants Portfolio, Funding Concentration & Programme Intelligence](https://github.com/Mettelo/MTL-XF-018-Government-Grants-Funding-Impact-Intelligence) | Cross-Functional | Public Sector / Grants / Programme Management |
 | **MTL-XF-019** | [Road Network Demand, Traffic Pressure & Infrastructure Investment Intelligence](https://github.com/Mettelo/MTL-XF-019-Road-Network-Demand-Congestion-Investment-Intelligence) | Cross-Functional | Transport / Highways / Infrastructure Investment |
 | **MTL-XF-020** | [Housing Market Affordability, Development & Investment Risk Intelligence](https://github.com/Mettelo/MTL-XF-020-Housing-Market-Affordability-Investment-Risk-Intelligence) | Cross-Functional | Housing / Economic Development / Investment |
-
 | **MTL-XF-021** | [School Attendance, Persistent Absence & Early Intervention Intelligence](https://github.com/Mettelo/MTL-XF-021-School-Attendance-Persistent-Absence-Early-Intervention-Intelligence) | Cross-Functional | Education / Local Government |
 | **MTL-XF-022** | [Statutory Homelessness, Temporary Accommodation & Prevention Performance Intelligence](https://github.com/Mettelo/MTL-XF-022-Homelessness-Temporary-Accommodation-Prevention-Intelligence) | Cross-Functional | Housing / Local Government |
 | **MTL-XF-023** | [Local Government Financial Resilience, Service Spend & Budget Pressure Intelligence](https://github.com/Mettelo/MTL-XF-023-Local-Government-Financial-Resilience-Service-Pressure-Intelligence) | Cross-Functional | Public Sector / Local Government / Finance |
@@ -66,13 +65,26 @@ Source:
 | **MTL-XF-029** | [NHS Hospital Activity, Demand, Flow & Capacity Pressure Intelligence](https://github.com/Mettelo/MTL-XF-029-NHS-Hospital-Activity-Demand-Flow-Capacity-Intelligence) | Cross-Functional | Healthcare / NHS / Operations |
 | **MTL-XF-030** | [River Water Quality Classification & Environmental Intervention Intelligence](https://github.com/Mettelo/MTL-XF-030-River-Water-Quality-Classification-Environmental-Intervention-Intelligence) | Cross-Functional | Environment / Water / Regulation |
 
+| **MTL-XF-031** | [Ecommerce Conversion, Customer Journey & Optimisation Intelligence](https://github.com/Mettelo/MTL-XF-031-Ecommerce-Conversion-Customer-Journey-Optimisation-Intelligence) | Cross-Functional | Retail / Ecommerce |
+| **MTL-XF-032** | [Retail Customer Value, Returns & Product Mix Intelligence](https://github.com/Mettelo/MTL-XF-032-Retail-Customer-Value-Returns-Product-Mix-Intelligence) | Cross-Functional | Retail / Ecommerce |
+| **MTL-XF-033** | [Bank Marketing Propensity & Campaign Efficiency Intelligence](https://github.com/Mettelo/MTL-XF-033-Bank-Marketing-Propensity-Campaign-Efficiency-Intelligence) | Cross-Functional | Banking / Financial Services |
+| **MTL-XF-034** | [Credit Risk, Underwriting & Portfolio Quality Intelligence](https://github.com/Mettelo/MTL-XF-034-Credit-Risk-Underwriting-Portfolio-Quality-Intelligence) | Cross-Functional | Banking / Financial Services |
+| **MTL-XF-035** | [Manufacturing Predictive Maintenance & Downtime Risk Intelligence](https://github.com/Mettelo/MTL-XF-035-Manufacturing-Predictive-Maintenance-Downtime-Risk-Intelligence) | Cross-Functional | Manufacturing / Industrial Operations |
+| **MTL-XF-036** | [B2B Wholesale Customer Segmentation & Account Growth Intelligence](https://github.com/Mettelo/MTL-XF-036-B2B-Wholesale-Customer-Segmentation-Account-Growth-Intelligence) | Cross-Functional | Wholesale / Retail |
+| **MTL-XF-037** | [Commercial Building Energy Demand & Efficiency Optimisation Intelligence](https://github.com/Mettelo/MTL-XF-037-Commercial-Building-Energy-Demand-Efficiency-Optimisation-Intelligence) | Cross-Functional | Energy / Facilities Management |
+| **MTL-XF-038** | [Manufacturing Quality, Defect Detection & Process Assurance Intelligence](https://github.com/Mettelo/MTL-XF-038-Manufacturing-Quality-Defect-Detection-Process-Assurance-Intelligence) | Cross-Functional | Manufacturing / Quality Assurance |
+| **MTL-XF-039** | [Enterprise Vulnerability Exposure & Patch Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence) | Cross-Functional | Information Security / Cyber Risk |
+| **MTL-XF-040** | [Phishing URL Detection & Security Triage Intelligence](https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence) | Cross-Functional | Information Security / Security Operations |
+
 ## Cross-Functional Series
 
-Projects **MTL-XF-011 to MTL-XF-030** are intentionally multidisciplinary. They combine roles such as Business Analysis, Data Governance, Data Engineering, Data Analysis, BI Development, Data Science, AI/Model Governance, Assurance and domain specialists.
+Projects **MTL-XF-011 to MTL-XF-040** are intentionally multidisciplinary. They combine roles such as Business Analysis, Data Governance, Data Engineering, Data Analysis, BI Development, Data Science, AI/Model Governance, Assurance and domain specialists.
 
 The objective is to reproduce the dependencies found in real delivery teams rather than treating each project as a single-role exercise.
 
-Projects 021–030 have **eight-week, 6–8-person simulated client briefs** in their master repositories. Each README explains the organisational setting, immediate planning need, accountable stakeholder and practical management use case. The accompanying business context and project brief specify the evidence pack and action record the team must hand over. Operational gains are proposed benefits to evaluate, not claimed results.
+Projects 021–040 have **eight-week, 6–8-person simulated client briefs** in their master repositories. Each README explains the organisational setting, immediate planning need, accountable stakeholder and practical management use case. The accompanying business context and project brief specify the evidence pack and action record the team must hand over. Operational gains are proposed benefits to evaluate, not claimed results.
+
+Projects **031–038** focus on private-sector commercial decisions; **039–040** cover vulnerability management and phishing triage. Their Studio cards include direct official dataset downloads and source-register guidance. Project 037 uses a residential energy dataset as a commercial-method prototype, and 038 classifies known faults rather than measuring a factory-wide defect rate.
 
 ## Catalogue Metadata
 

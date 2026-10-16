@@ -28,6 +28,9 @@ function card(p){
   const roles=(p.roles||[]).map(x=>'<span class="role-chip">'+esc(x)+'</span>').join("");
   const expertise=(p.expertise||[]).join(" · ");
   const dataSource=p.data_source?'<div class="data-source"><strong>Data:</strong> '+esc(p.data_source)+'</div>':"";
+  const downloads=(p.data_downloads||[]).map(d=>'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">'+esc(d.label)+'</a>').join(' · ');
+  const sourceGuide=p.source_guide?'<a href="'+esc(p.source_guide)+'" target="_blank" rel="noopener">Data guide</a>':"";
+  const dataLinks=(downloads||sourceGuide)?'<div class="data-links" aria-label="Project data downloads">'+[downloads,sourceGuide].filter(Boolean).join(' · ')+'</div>':"";
   return `
   <article class="card">
     <div class="card-top">
@@ -38,6 +41,7 @@ function card(p){
     <div class="sector">${esc(p.sector)}</div>
     <p class="project-brief"><strong>Project brief:</strong> ${esc(p.brief||p.problem)}</p>
     ${dataSource}
+    ${dataLinks}
     <div class="roles">${roles}</div>
     <div class="tags">${tags}</div>
     <div class="expertise"><strong>Skills:</strong> ${esc(expertise)}</div>

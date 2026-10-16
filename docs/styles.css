@@ -262,3 +262,6 @@ button:disabled:hover{background:var(--ink)}
   .pagination{gap:10px}
   .pagination button{padding:10px 12px}
 }
+
+.data-links{display:flex;flex-wrap:wrap;gap:6px;font-size:.84rem;margin:0 0 16px}
+.data-links a{color:var(--indigo);font-weight:700;text-underline-offset:3px}

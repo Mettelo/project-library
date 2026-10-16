@@ -19,6 +19,8 @@ Each project in `docs/projects.json` should contain:
 | `expertise` | Core skills required or practised |
 | `team_size` | Recommended team size |
 | `repository` | Full master project repository URL |
+| `data_downloads` | Optional list of `{label, url}` official direct-download links displayed on the card; no login or paid-only source required |
+| `source_guide` | Optional full master source-register URL explaining required files, frozen cohort and extraction/checksum rules |
 | `status` | Available, Upcoming, Closed, Archived, etc. |
 
 ## Adding a new project
@@ -46,3 +48,7 @@ The catalogue shows 10 projects per page, with Previous and Next controls above 
 ## Card writing
 
 Each card displays one Project brief rather than separate problem and use-case paragraphs. Use two or three plain-language sentences explaining who needs the project, the specific problem and the expected product. Keep detailed management scenarios in the master specification. Retain problem and use_case metadata for search and structured reuse.
+
+## Series 031–040
+
+The catalogue includes eight private-sector commercial projects (031–038) and two information-security projects (039–040). Repository names, business workflows and data sources match their improved master packs. All are Cross-Functional, Available, and recommend teams of 6–8. Direct official downloads are in data_downloads; NVD also has a checksum metadata link. source_guide carries file-selection, extraction, licence and frozen-snapshot instructions. Dataset limitations remain visible in card descriptions, especially synthetic maintenance data, the residential energy proxy, known-fault-only quality examples and offline security scenarios.
