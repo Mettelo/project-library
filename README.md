@@ -15,7 +15,7 @@ The catalogue under `docs/` supports:
 - **Sector filtering** — individual sectors within combined labels, including Banking, NHS, Public Sector, Transport, Housing, Energy, Financial Services, Telecoms and more;
 - **Keyword search** — project IDs, titles, roles, skills, tools, business problems, use cases and data sources; multiple words narrow results together.
 
-The catalogue currently contains **45 projects** across six tracks, including **30 Cross-Functional projects** (MTL-XF-011–040).
+The catalogue currently contains **50 projects** across six tracks, including **30 Cross-Functional projects** (MTL-XF-011–040) and a new five-project applied AI product series (MTL-AI-046–050).
 
 ### Public catalogue
 
@@ -81,6 +81,17 @@ Source:
 | **MTL-BA-043** | [SME Lending Functional Requirements & Decision Rules](https://github.com/Mettelo/MTL-BA-043-SME-Lending-Application-Decision-Transformation) | Business Analysis | Financial Services / SME Lending |
 | **MTL-BA-044** | [Employee Onboarding & Access Integration Analysis](https://github.com/Mettelo/MTL-BA-044-Employee-Onboarding-Access-Management-Transformation) | Business Analysis | Professional Services / Workforce / Identity and Access |
 | **MTL-BA-045** | [CRM & Sales Pipeline Agile Product Analysis](https://github.com/Mettelo/MTL-BA-045-CRM-Sales-Pipeline-Transformation) | Business Analysis | B2B Sales / Professional Services |
+| **MTL-AI-046** | [Data Quality Investigation Copilot](https://github.com/Mettelo/MTL-AI-046-Data-Quality-Investigation-Copilot) | Artificial Intelligence | Data / Analytics Engineering / Operations |
+| **MTL-AI-047** | [Mobility Operations Narrative Copilot](https://github.com/Mettelo/MTL-AI-047-Mobility-Operations-Narrative-Copilot) | Artificial Intelligence | Mobility / Transport / Operations |
+| **MTL-AI-048** | [Meeting Decision & Action Copilot](https://github.com/Mettelo/MTL-AI-048-Meeting-Decision-Action-Copilot) | Artificial Intelligence | Professional Services / Delivery / Collaboration |
+| **MTL-AI-049** | [SOC Incident Investigation Copilot](https://github.com/Mettelo/MTL-AI-049-SOC-Incident-Investigation-Copilot) | Artificial Intelligence | Information Security / Security Operations |
+| **MTL-AI-050** | [Cybersecurity Framework Change Intelligence Assistant](https://github.com/Mettelo/MTL-AI-050-Cybersecurity-Framework-Change-Intelligence-Assistant) | Artificial Intelligence | Information Security / Governance / Risk |
+
+## Applied AI Product Series
+
+Projects **MTL-AI-046–050** are eight-week, 3–5-person AI engineering commissions that end in a working local product rather than a notebook-only model. They cover five distinct product patterns: data-quality investigation, grounded analytics narration, meeting decision/action extraction, SOC incident investigation and cybersecurity-framework change intelligence.
+
+Every project requires deterministic evidence before or alongside model output, measurable held-out evaluation, explicit human review, a zero-cost local/open-source completion route, UAT, independent rerun and final contribution evidence. Their catalogue cards link to the exact approved source downloads and project-specific submission guides.
 
 ## Business Analyst Project Studio
 
