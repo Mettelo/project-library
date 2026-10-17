@@ -1954,5 +1954,289 @@
     ],
     "source_guide": "https://github.com/Mettelo/MTL-BA-045-CRM-Sales-Pipeline-Transformation/blob/main/evidence/README.md",
     "submission_guide": "https://github.com/Mettelo/MTL-BA-045-CRM-Sales-Pipeline-Transformation/blob/main/submission/DELIVERABLES_CHECKLIST.md"
+  },
+  {
+    "id": "MTL-AI-046",
+    "name": "Data Quality Investigation Copilot",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "Data Quality",
+      "Python",
+      "Data Validation",
+      "LLM Engineering",
+      "AI Evaluation",
+      "Guardrails",
+      "Human-in-the-Loop"
+    ],
+    "roles": [
+      "AI Engineer",
+      "Data Engineer",
+      "Data Quality Analyst",
+      "AI Governance / Assurance"
+    ],
+    "sector": "Data / Analytics Engineering / Operations",
+    "brief": "A data operations team receives failed validation checks but still spends significant time investigating what failed, what may be affected and what evidence to collect next. Build a local AI copilot that combines deterministic data-quality evidence with bounded AI assistance to produce evidence-linked investigation drafts, safe next steps and human-reviewed incident reports.",
+    "problem": "Validation identifies failed rules but does not reliably explain likely causes, downstream impact or the evidence an engineer should investigate next.",
+    "use_case": "A data operations analyst opens a failed batch, inspects rule evidence and declared lineage, generates an evidence-linked investigation draft, edits or rejects hypotheses and exports a reviewed incident report with an accountable owner.",
+    "data_source": "UCI Air Quality — frozen Air Quality dataset plus controlled, labelled data-quality failure scenarios",
+    "expertise": [
+      "Python",
+      "Data-quality engineering",
+      "Pandera or validation rules",
+      "Local LLMs",
+      "Evidence contracts",
+      "AI evaluation",
+      "Human review workflows"
+    ],
+    "team_size": "3–5",
+    "repository": "https://github.com/Mettelo/MTL-AI-046-Data-Quality-Investigation-Copilot",
+    "status": "Available",
+    "duration": "8 weeks",
+    "deliverables": [
+      "Governed source and controlled DQ scenario laboratory",
+      "Reproducible validation and evidence pipeline",
+      "Local AI investigation copilot with guardrails",
+      "Human review and incident-report workflow",
+      "Held-out AI evaluation, UAT and technical handover"
+    ],
+    "data_downloads": [
+      {
+        "label": "UCI Air Quality ZIP",
+        "url": "https://archive.ics.uci.edu/static/public/360/air%2Bquality.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-AI-046-Data-Quality-Investigation-Copilot/blob/main/data/README.md",
+    "submission_guide": "https://github.com/Mettelo/MTL-AI-046-Data-Quality-Investigation-Copilot/blob/main/submission/SUBMISSION_GUIDE.md"
+  },
+  {
+    "id": "MTL-AI-047",
+    "name": "Mobility Operations Narrative Copilot",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "Analytics Engineering",
+      "Python",
+      "KPI Design",
+      "LLM Engineering",
+      "Claim Verification",
+      "AI Evaluation",
+      "Decision Support"
+    ],
+    "roles": [
+      "AI Engineer",
+      "Data Analyst",
+      "Analytics Engineer",
+      "AI Governance / Assurance"
+    ],
+    "sector": "Mobility / Transport / Operations",
+    "brief": "A mobility operations team can calculate rental KPIs but still prepares management briefings manually. Build a local AI product in which Python or SQL computes every metric first, then the model explains only verified movements, contributing factors, limitations and investigation questions through evidence-linked narratives.",
+    "problem": "Management reporting is slow and inconsistent, while allowing an LLM to calculate or improvise metrics would create unacceptable factual risk.",
+    "use_case": "An operations analyst selects valid reporting and comparison windows, reviews verified KPIs, generates a grounded briefing, checks every claim against its evidence packet and approves the final management narrative.",
+    "data_source": "UCI Bike Sharing — Capital Bikeshare hourly and daily rental data, 2011–2012",
+    "expertise": [
+      "Python or DuckDB",
+      "KPI engineering",
+      "Evidence contracts",
+      "Local LLMs",
+      "Claim verification",
+      "AI evaluation",
+      "Management reporting"
+    ],
+    "team_size": "3–5",
+    "repository": "https://github.com/Mettelo/MTL-AI-047-Mobility-Operations-Narrative-Copilot",
+    "status": "Available",
+    "duration": "8 weeks",
+    "deliverables": [
+      "Governed mobility dataset and KPI catalogue",
+      "Deterministic metric and evidence engine",
+      "Local AI narrative layer",
+      "Claim-verification and human-review product",
+      "40-case evaluation, UAT and executive handover"
+    ],
+    "data_downloads": [
+      {
+        "label": "UCI Bike Sharing ZIP",
+        "url": "https://archive.ics.uci.edu/static/public/275/bike%2Bsharing%2Bdataset.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-AI-047-Mobility-Operations-Narrative-Copilot/blob/main/data/README.md",
+    "submission_guide": "https://github.com/Mettelo/MTL-AI-047-Mobility-Operations-Narrative-Copilot/blob/main/submission/SUBMISSION_GUIDE.md"
+  },
+  {
+    "id": "MTL-AI-048",
+    "name": "Meeting Decision & Action Copilot",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "NLP",
+      "LLM Engineering",
+      "Information Extraction",
+      "Evidence Grounding",
+      "Human-in-the-Loop",
+      "AI Evaluation"
+    ],
+    "roles": [
+      "AI Engineer",
+      "NLP / Data Engineer",
+      "Product / Business Analyst",
+      "AI Governance / Assurance"
+    ],
+    "sector": "Professional Services / Delivery / Collaboration",
+    "brief": "Project teams often leave meetings with inconsistent interpretations of decisions, commitments and unresolved questions. Build a local assistant that converts approved transcripts into evidence-linked decision, action and question candidates, preserves explicitly stated owners and deadlines, and requires human review before exporting minutes and an action register.",
+    "problem": "Manual meeting records are slow to prepare and often lose ownership, deadlines, reversals and the transcript evidence supporting each decision or action.",
+    "use_case": "A coordinator loads an approved transcript, reviews extracted decisions/actions/questions against exact evidence, corrects ambiguous fields, rejects unsupported items and approves a final minutes and action-register export.",
+    "data_source": "AMI Meeting Corpus — manual annotations/transcripts v1.6.2 (core project does not require audio or video)",
+    "expertise": [
+      "Python",
+      "Transcript parsing",
+      "NLP / information extraction",
+      "Local LLMs",
+      "Evidence linking",
+      "Human review workflows",
+      "Evaluation design"
+    ],
+    "team_size": "3–5",
+    "repository": "https://github.com/Mettelo/MTL-AI-048-Meeting-Decision-Action-Copilot",
+    "status": "Available",
+    "duration": "8 weeks",
+    "deliverables": [
+      "Governed AMI transcript cohort and gold-label protocol",
+      "Reproducible transcript/evidence pipeline",
+      "Decision, action and question extraction capability",
+      "Reviewable minutes and action-register application",
+      "Held-out semantic evaluation, UAT and handover"
+    ],
+    "data_downloads": [
+      {
+        "label": "AMI manual annotations 1.6.2",
+        "url": "https://groups.inf.ed.ac.uk/ami/AMICorpusAnnotations/ami_public_manual_1.6.2.zip"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-AI-048-Meeting-Decision-Action-Copilot/blob/main/data/README.md",
+    "submission_guide": "https://github.com/Mettelo/MTL-AI-048-Meeting-Decision-Action-Copilot/blob/main/submission/SUBMISSION_GUIDE.md"
+  },
+  {
+    "id": "MTL-AI-049",
+    "name": "SOC Incident Investigation Copilot",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "Cybersecurity",
+      "Security Operations",
+      "MITRE ATT&CK",
+      "Event Correlation",
+      "LLM Engineering",
+      "AI Evaluation",
+      "Security Assurance"
+    ],
+    "roles": [
+      "AI Engineer",
+      "SOC Analyst",
+      "Security Data Engineer",
+      "Threat / Detection Analyst",
+      "Security Assurance Analyst"
+    ],
+    "sector": "Information Security / Security Operations",
+    "brief": "SOC analysts receive fragmented alerts and event records that need to be reconstructed into a defensible incident narrative. Build a local copilot that validates and orders telemetry, correlates related entities, proposes evidence-supported MITRE ATT&CK mappings, surfaces unknowns and produces a human-reviewed incident handover.",
+    "problem": "Alert severity alone does not establish chronology, entity relationships, supported ATT&CK behaviour, evidence gaps or the next investigation step.",
+    "use_case": "A SOC analyst opens a frozen case, reviews the reconstructed timeline and correlated evidence, validates ATT&CK candidates, rejects unsupported compromise claims and approves an auditable shift-handover record.",
+    "data_source": "MITRE Enterprise ATT&CK 17.1 STIX 2.1 plus frozen safe repository-authored security-event scenarios",
+    "expertise": [
+      "Python",
+      "Security-event normalisation",
+      "Timeline reconstruction",
+      "Entity correlation",
+      "MITRE ATT&CK",
+      "Local LLMs",
+      "Security assurance"
+    ],
+    "team_size": "3–5",
+    "repository": "https://github.com/Mettelo/MTL-AI-049-SOC-Incident-Investigation-Copilot",
+    "status": "Available",
+    "duration": "8 weeks",
+    "deliverables": [
+      "Frozen ATT&CK resource and scenario pack",
+      "Event normalisation and correlation baseline",
+      "Local AI incident-investigation layer",
+      "Guarded analyst review and handover application",
+      "Held-out security evaluation, UAT and technical handover"
+    ],
+    "data_downloads": [
+      {
+        "label": "MITRE Enterprise ATT&CK 17.1 JSON",
+        "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-AI-049-SOC-Incident-Investigation-Copilot/blob/main/data/README.md",
+    "submission_guide": "https://github.com/Mettelo/MTL-AI-049-SOC-Incident-Investigation-Copilot/blob/main/submission/SUBMISSION_GUIDE.md"
+  },
+  {
+    "id": "MTL-AI-050",
+    "name": "Cybersecurity Framework Change Intelligence Assistant",
+    "track": "Artificial Intelligence",
+    "capabilities": [
+      "Artificial Intelligence",
+      "AI Engineering",
+      "Cybersecurity Governance",
+      "Document Intelligence",
+      "NIST CSF",
+      "LLM Engineering",
+      "Change Detection",
+      "AI Evaluation",
+      "Governance"
+    ],
+    "roles": [
+      "AI Engineer",
+      "Cybersecurity Governance Analyst",
+      "Data / Document Engineer",
+      "Risk / Control Analyst",
+      "AI Governance / Assurance"
+    ],
+    "sector": "Information Security / Governance / Risk",
+    "brief": "Cybersecurity governance teams migrating from NIST CSF 1.1 to 2.0 need more than a textual diff. Build a local assistant that preserves NIST crosswalk relationships, identifies structural and wording changes, drafts evidence-linked organisational impact hypotheses, blocks unsupported obligations and produces a human-reviewed change register.",
+    "problem": "Manual framework comparison is slow and can confuse renumbering, moved outcomes, split/merge relationships and wording changes with substantive compliance requirements.",
+    "use_case": "A governance lead reviews aligned CSF outcomes and proposed change labels, follows citations to both versions, rejects unsupported impact or obligation claims and approves a migration change register for internal planning.",
+    "data_source": "NIST CSF 1.1 Core, NIST CSF 2.0 Core/reference export and official CSF 1.1→2.0 crosswalk",
+    "expertise": [
+      "Python",
+      "Document/data extraction",
+      "Crosswalk modelling",
+      "Change classification",
+      "Local LLMs",
+      "Citation verification",
+      "Cybersecurity governance"
+    ],
+    "team_size": "3–5",
+    "repository": "https://github.com/Mettelo/MTL-AI-050-Cybersecurity-Framework-Change-Intelligence-Assistant",
+    "status": "Available",
+    "duration": "8 weeks",
+    "deliverables": [
+      "Frozen NIST source and framework inventories",
+      "Many-to-many crosswalk graph and deterministic change baseline",
+      "Local AI impact-explanation layer",
+      "Citation/obligation guard and governance-review application",
+      "40-case evaluation, UAT and framework-change handover"
+    ],
+    "data_downloads": [
+      {
+        "label": "NIST CSF 1.1 Core",
+        "url": "https://www.nist.gov/document/2018-04-16frameworkv11core1xlsx"
+      },
+      {
+        "label": "NIST CSF 2.0 export",
+        "url": "https://csrc.nist.gov/extensions/nudp/services/json/csf/download?olirids=all"
+      },
+      {
+        "label": "NIST CSF 1.1→2.0 crosswalk",
+        "url": "https://csrc.nist.gov/csrc/media/Projects/olir/documents/submissions/CSFv1.1_to_CSFv2.0_CROSSWALK_20240220.xlsx"
+      }
+    ],
+    "source_guide": "https://github.com/Mettelo/MTL-AI-050-Cybersecurity-Framework-Change-Intelligence-Assistant/blob/main/data/README.md",
+    "submission_guide": "https://github.com/Mettelo/MTL-AI-050-Cybersecurity-Framework-Change-Intelligence-Assistant/blob/main/submission/SUBMISSION_GUIDE.md"
   }
 ]
