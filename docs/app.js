@@ -10,7 +10,8 @@ function sectors(project){return (project.sector||"").split("/").map(s=>s.trim()
 function matches(project){
   const q=normalise(state.search);
   const hay=[
-    project.id,project.name,project.track,project.sector,project.brief,project.problem,project.use_case,project.data_source,
+    project.id,project.name,project.track,project.sector,project.brief,project.problem,project.use_case,project.data_source,project.learning_pathway,project.duration,
+    ...(project.deliverables||[]),
     ...(project.capabilities||[]),...(project.roles||[]),...(project.expertise||[])
   ].join(" ").toLowerCase();
 
@@ -31,6 +32,10 @@ function card(p){
   const downloads=(p.data_downloads||[]).map(d=>'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">'+esc(d.label)+'</a>').join(' · ');
   const sourceGuide=p.source_guide?'<a href="'+esc(p.source_guide)+'" target="_blank" rel="noopener">Data guide</a>':"";
   const dataLinks=(downloads||sourceGuide)?'<div class="data-links" aria-label="Project data downloads">'+[downloads,sourceGuide].filter(Boolean).join(' · ')+'</div>':"";
+  const pathway=p.learning_pathway?'<p><strong>BA focus:</strong> '+esc(p.learning_pathway)+'</p>':"";
+  const duration=p.duration?'<p><strong>Duration:</strong> '+esc(p.duration)+'</p>':"";
+  const deliverables=(p.deliverables||[]).length?'<div><strong>Key deliverables:</strong><ul>'+p.deliverables.map(d=>'<li>'+esc(d)+'</li>').join('')+'</ul></div>':"";
+  const submission=p.submission_guide?'<p><a href="'+esc(p.submission_guide)+'" target="_blank" rel="noopener">Team deliverables and submission checklist →</a></p>':"";
   return `
   <article class="card">
     <div class="card-top">
@@ -40,6 +45,10 @@ function card(p){
     <h3>${esc(p.name)}</h3>
     <div class="sector">${esc(p.sector)}</div>
     <p class="project-brief"><strong>Project brief:</strong> ${esc(p.brief||p.problem)}</p>
+    ${pathway}
+    ${duration}
+    ${deliverables}
+    ${submission}
     ${dataSource}
     ${dataLinks}
     <div class="roles">${roles}</div>

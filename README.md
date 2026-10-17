@@ -8,12 +8,12 @@ Each project is built around a realistic organisational problem and links to a d
 
 The catalogue under `docs/` supports:
 
-- **Track filtering** — Data Analytics, Data Engineering, Data Science, Artificial Intelligence and Cross-Functional;
+- **Track filtering** — Data Analytics, Data Engineering, Data Science, Artificial Intelligence, Business Analysis and Cross-Functional;
 - **Role filtering** — Business Analyst, Data Governance Analyst, Data Engineer, Data Analyst, BI Developer, Data Scientist, AI/Model Governance and project-specific roles;
 - **Sector filtering** — individual sectors within combined labels, including Banking, NHS, Public Sector, Transport, Housing, Energy, Financial Services, Telecoms and more;
 - **Keyword search** — project IDs, titles, roles, skills, tools, business problems, use cases and data sources; multiple words narrow results together.
 
-The catalogue currently contains **40 projects** across five tracks, including **30 Cross-Functional projects** (MTL-XF-011–040).
+The catalogue currently contains **45 projects** across six tracks, including **30 Cross-Functional projects** (MTL-XF-011–040).
 
 ### Public catalogue
 
@@ -76,6 +76,18 @@ Source:
 | **MTL-XF-039** | [Enterprise Vulnerability Exposure & Patch Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence) | Cross-Functional | Information Security / Cyber Risk |
 | **MTL-XF-040** | [Phishing URL Detection & Security Triage Intelligence](https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence) | Cross-Functional | Information Security / Security Operations |
 
+| **MTL-BA-041** | [Customer Returns & Refund Process Improvement](https://github.com/Mettelo/MTL-BA-041-Customer-Returns-Refund-Process-Transformation) | Business Analysis | Retail / Ecommerce |
+| **MTL-BA-042** | [NHS Outpatient Referral & Appointment Discovery](https://github.com/Mettelo/MTL-BA-042-NHS-Outpatient-Referral-Appointment-Transformation) | Business Analysis | Healthcare / NHS |
+| **MTL-BA-043** | [SME Lending Functional Requirements & Decision Rules](https://github.com/Mettelo/MTL-BA-043-SME-Lending-Application-Decision-Transformation) | Business Analysis | Financial Services / SME Lending |
+| **MTL-BA-044** | [Employee Onboarding & Access Integration Analysis](https://github.com/Mettelo/MTL-BA-044-Employee-Onboarding-Access-Management-Transformation) | Business Analysis | Professional Services / Workforce / Identity and Access |
+| **MTL-BA-045** | [CRM & Sales Pipeline Agile Product Analysis](https://github.com/Mettelo/MTL-BA-045-CRM-Sales-Pipeline-Transformation) | Business Analysis | B2B Sales / Professional Services |
+
+## Business Analyst Project Studio
+
+Projects **MTL-BA-041–045** offer five distinct BA experiences: process improvement, service discovery, functional requirements, technical integration and agile product analysis. They use synthetic evidence and conflicting stakeholder perspectives, with different deliverables and endpoints.
+
+Read [the BA project selection guide](BUSINESS_ANALYST_PROJECT_STUDIO.md) to compare the projects. Each live catalogue card lists the key outputs and links directly to the master evidence and specific team submission checklist. Team composition is agreed with the cohort; individual delivery is supported by the master submission guidance.
+
 ## Cross-Functional Series
 
 Projects **MTL-XF-011 to MTL-XF-040** are intentionally multidisciplinary. They combine roles such as Business Analysis, Data Governance, Data Engineering, Data Analysis, BI Development, Data Science, AI/Model Governance, Assurance and domain specialists.
@@ -118,7 +130,7 @@ Each participating team creates its delivery repository under the **Mettelo GitH
 - documentation;
 - final outputs;
 - acceptance-criteria completion;
-- assurance/UAT;
+- assurance/UAT where required by the selected commission;
 - technical handover;
 - individual contribution.
 

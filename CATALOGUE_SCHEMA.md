@@ -52,3 +52,16 @@ Each card displays one Project brief rather than separate problem and use-case p
 ## Series 031–040
 
 The catalogue includes eight private-sector commercial projects (031–038) and two information-security projects (039–040). Repository names, business workflows and data sources match their improved master packs. All are Cross-Functional, Available, and recommend teams of 3–5. Direct official downloads are in data_downloads; NVD also has a checksum metadata link. source_guide carries file-selection, extraction, licence and frozen-snapshot instructions. Dataset limitations remain visible in card descriptions, especially synthetic maintenance data, the residential energy proxy, known-fault-only quality examples and offline security scenarios.
+
+## Business Analyst series 041–045
+
+Business Analysis is a primary track. These five simulations have distinct commissions, outputs and endpoints. Optional fields used by their cards are:
+
+| Field | Purpose |
+|---|---|
+| learning_pathway | Distinct BA focus shown on the card and included in keyword search |
+| duration | Cohort duration from the master commission |
+| deliverables | Array of main required output summaries, displayed and searchable |
+| submission_guide | Direct link to the master's specific team deliverables checklist |
+
+Existing entries may omit these fields. BA source_guide links to the evidence catalogue; local evidence is synthetic, with official external context labelled separately. team_size reflects individual/team participation subject to cohort agreement rather than inventing a numeric team requirement. Full task acceptance criteria and exact required content remain authoritative in each master.
