@@ -65,3 +65,17 @@ Business Analysis is a primary track. These five simulations have distinct commi
 | submission_guide | Direct link to the master's specific team deliverables checklist |
 
 Existing entries may omit these fields. BA source_guide links to the evidence catalogue; local evidence is synthetic, with official external context labelled separately. team_size reflects individual/team participation subject to cohort agreement rather than inventing a numeric team requirement. Full task acceptance criteria and exact required content remain authoritative in each master.
+
+
+## Applied AI series 046–050
+
+Projects **MTL-AI-046–050** are Artificial Intelligence track projects with 8-week, 3–5-person delivery briefs. Each card includes a distinct organisational problem, working-product workflow, approved free data/knowledge source, direct download links where applicable, source guidance and submission guidance.
+
+The series intentionally avoids reusing the same core requirement pattern:
+- 046: evidence-backed data-quality investigation;
+- 047: deterministic KPI-to-narrative generation with claim verification;
+- 048: evidence-linked meeting decision/action extraction;
+- 049: security-event reconstruction, correlation and ATT&CK-assisted handover;
+- 050: NIST CSF version alignment, change intelligence and governance review.
+
+All five require local/open-source completion, human approval, project-specific held-out evaluation, UAT, independent rerun and contribution evidence.
