@@ -271,3 +271,29 @@ button:disabled:hover{background:var(--ink)}
 .site-links .apply-link{background:var(--amber);color:var(--ink);padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:800}
 .site-links a:focus-visible{outline:2px solid var(--amber);outline-offset:4px}
 @media(max-width:800px){.sitebar-inner{flex-wrap:wrap;padding-top:16px;padding-bottom:16px}.site-links{justify-content:flex-start;width:100%;gap:12px 18px}}
+
+/* Main navigation: balanced branding, clear actions and responsive wrapping. */
+.sitebar{border-bottom:1px solid rgba(207,141,36,.3)}
+.sitebar-inner{min-height:100px;padding-top:20px;padding-bottom:20px;gap:24px 36px}
+.brand{flex-shrink:0;gap:16px;text-decoration:none;border-radius:6px}
+.brand-mark{grid-template-columns:repeat(3,8px);grid-template-rows:repeat(4,8px);gap:4px;flex-shrink:0}
+.brand-mark span{border-radius:1.5px}
+.brand-name{font-size:1.9rem;line-height:1.1;font-weight:800;letter-spacing:-.045em}
+.brand-tagline{display:block;margin-top:7px;font-size:.78rem;line-height:1.4;letter-spacing:.01em;color:#CDD2DC;white-space:normal;max-width:270px}
+.site-links{gap:10px 22px;font-size:.87rem}
+.site-links>a{text-decoration:none;color:#E2E5EC;padding:10px 0;line-height:1.4}
+.site-links>a:hover{color:var(--white);text-decoration:underline;text-underline-offset:5px}
+.site-links .apply-link{display:inline-flex;align-items:center;gap:14px;padding:12px 17px;min-height:44px;border:1px solid var(--amber);border-radius:7px;color:var(--ink);background:var(--amber);white-space:nowrap}
+.site-links .apply-link:hover{background:#E0A345;border-color:#E0A345;color:var(--ink);text-decoration:none}
+.brand:focus-visible,.site-links a:focus-visible{outline:2px solid var(--amber);outline-offset:5px}
+@media(max-width:1050px){
+  .sitebar-inner{flex-wrap:wrap;gap:20px}
+  .site-links{width:100%;justify-content:flex-start;border-top:1px solid rgba(255,255,255,.12);padding-top:14px}
+}
+@media(max-width:480px){
+  .sitebar-inner{padding-top:20px;padding-bottom:20px}
+  .brand-name{font-size:1.7rem}
+  .brand-tagline{font-size:.74rem;max-width:240px}
+  .site-links{gap:8px 20px;font-size:.82rem}
+  .site-links .apply-link{justify-content:center;width:100%;margin-top:4px}
+}
