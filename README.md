@@ -64,7 +64,6 @@ Source:
 | **MTL-XF-028** | [Local Net Zero Emissions, Sector Decarbonisation & Intervention Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-028-Local-Net-Zero-Emissions-Decarbonisation-Prioritisation-Intelligence) | Cross-Functional | Environment / Net Zero / Local Government |
 | **MTL-XF-029** | [NHS Hospital Activity, Demand, Flow & Capacity Pressure Intelligence](https://github.com/Mettelo/MTL-XF-029-NHS-Hospital-Activity-Demand-Flow-Capacity-Intelligence) | Cross-Functional | Healthcare / NHS / Operations |
 | **MTL-XF-030** | [River Water Quality Classification & Environmental Intervention Intelligence](https://github.com/Mettelo/MTL-XF-030-River-Water-Quality-Classification-Environmental-Intervention-Intelligence) | Cross-Functional | Environment / Water / Regulation |
-
 | **MTL-XF-031** | [Ecommerce Conversion, Customer Journey & Optimisation Intelligence](https://github.com/Mettelo/MTL-XF-031-Ecommerce-Conversion-Customer-Journey-Optimisation-Intelligence) | Cross-Functional | Retail / Ecommerce |
 | **MTL-XF-032** | [Retail Customer Value, Returns & Product Mix Intelligence](https://github.com/Mettelo/MTL-XF-032-Retail-Customer-Value-Returns-Product-Mix-Intelligence) | Cross-Functional | Retail / Ecommerce |
 | **MTL-XF-033** | [Bank Marketing Propensity & Campaign Efficiency Intelligence](https://github.com/Mettelo/MTL-XF-033-Bank-Marketing-Propensity-Campaign-Efficiency-Intelligence) | Cross-Functional | Banking / Financial Services |
@@ -75,7 +74,6 @@ Source:
 | **MTL-XF-038** | [Manufacturing Quality, Defect Detection & Process Assurance Intelligence](https://github.com/Mettelo/MTL-XF-038-Manufacturing-Quality-Defect-Detection-Process-Assurance-Intelligence) | Cross-Functional | Manufacturing / Quality Assurance |
 | **MTL-XF-039** | [Enterprise Vulnerability Exposure & Patch Prioritisation Intelligence](https://github.com/Mettelo/MTL-XF-039-Enterprise-Vulnerability-Exposure-Patch-Prioritisation-Intelligence) | Cross-Functional | Information Security / Cyber Risk |
 | **MTL-XF-040** | [Phishing URL Detection & Security Triage Intelligence](https://github.com/Mettelo/MTL-XF-040-Phishing-URL-Detection-Security-Triage-Intelligence) | Cross-Functional | Information Security / Security Operations |
-
 | **MTL-BA-041** | [Customer Returns & Refund Process Improvement](https://github.com/Mettelo/MTL-BA-041-Customer-Returns-Refund-Process-Transformation) | Business Analysis | Retail / Ecommerce |
 | **MTL-BA-042** | [NHS Outpatient Referral & Appointment Discovery](https://github.com/Mettelo/MTL-BA-042-NHS-Outpatient-Referral-Appointment-Transformation) | Business Analysis | Healthcare / NHS |
 | **MTL-BA-043** | [SME Lending Functional Requirements & Decision Rules](https://github.com/Mettelo/MTL-BA-043-SME-Lending-Application-Decision-Transformation) | Business Analysis | Financial Services / SME Lending |
