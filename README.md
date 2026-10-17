@@ -1,5 +1,7 @@
 # Mettelo Project Studio Catalogue
 
+[Apply for a project](https://tally.so/r/eq4Wjo) · [About Mettelo](https://mettelo.com) · [Join our Discord community](https://discord.gg/xAVdGuMJ)
+
 The **Mettelo Project Library** is the discovery layer for Mettelo production-style specialist and cross-functional projects across Data, Engineering, Data Science, AI, Business Analysis, Data Governance, BI and related disciplines.
 
 Each project is built around a realistic organisational problem and links to a dedicated master repository containing the full brief, approved data guidance, deliverables, acceptance criteria and submission requirements.
