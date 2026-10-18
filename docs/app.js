@@ -25,7 +25,7 @@ function esc(v){
   return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
 }
 function card(p){
-  const tags=(p.capabilities||[]).slice(0,7).map(x=>'<span class="tag">'+esc(x)+'</span>').join("");
+  const tags=(p.capabilities||[]).slice(0,5).map(x=>'<span class="tag">'+esc(x)+'</span>').join("");
   const roles=(p.roles||[]).map(x=>'<span class="role-chip">'+esc(x)+'</span>').join("");
   const expertise=(p.expertise||[]).join(" · ");
   const dataSource=p.data_source?'<div class="data-source"><strong>Data:</strong> '+esc(p.data_source)+'</div>':"";
@@ -33,9 +33,12 @@ function card(p){
   const sourceGuide=p.source_guide?'<a href="'+esc(p.source_guide)+'" target="_blank" rel="noopener">Data guide</a>':"";
   const dataLinks=(downloads||sourceGuide)?'<div class="data-links" aria-label="Project data downloads">'+[downloads,sourceGuide].filter(Boolean).join(' · ')+'</div>':"";
   const pathway=p.learning_pathway?'<p><strong>BA focus:</strong> '+esc(p.learning_pathway)+'</p>':"";
-  const duration=p.duration?'<p><strong>Duration:</strong> '+esc(p.duration)+'</p>':"";
   const deliverables=(p.deliverables||[]).length?'<div><strong>Key deliverables:</strong><ul>'+p.deliverables.map(d=>'<li>'+esc(d)+'</li>').join('')+'</ul></div>':"";
   const submission=p.submission_guide?'<p><a href="'+esc(p.submission_guide)+'" target="_blank" rel="noopener">Team deliverables and submission checklist →</a></p>':"";
+  const brief=p.brief||p.problem||"";
+  const sentences=brief.match(/^(.+?[.!?])\s+([\s\S]+)$/);
+  const challenge=sentences?sentences[1]:p.problem||brief;
+  const build=sentences?sentences[2]:brief;
   return `
   <article class="card">
     <div class="card-top">
@@ -44,19 +47,13 @@ function card(p){
     </div>
     <h3>${esc(p.name)}</h3>
     <div class="sector">${esc(p.sector)}</div>
-    <p class="project-brief"><strong>Project brief:</strong> ${esc(p.brief||p.problem)}</p>
-    ${pathway}
-    ${duration}
-    ${deliverables}
-    ${submission}
-    ${dataSource}
-    ${dataLinks}
-    <div class="roles">${roles}</div>
-    <div class="tags">${tags}</div>
-    <div class="expertise"><strong>Skills:</strong> ${esc(expertise)}</div>
+    <div class="card-copy"><h4>The challenge</h4><p>${esc(challenge)}</p><h4>What you’ll build</h4><p>${esc(build)}</p></div>
+    <dl class="project-meta"><div><dt>Team</dt><dd>${esc(p.team_size||"See project brief")}</dd></div><div><dt>Duration</dt><dd>${esc(p.duration||"See project brief")}</dd></div></dl>
+    <h4>Skills you’ll practise</h4><div class="tags">${tags}</div>
+    <details class="project-details"><summary>Roles, deliverables &amp; resources</summary><div class="detail-content"><h4>Delivery roles</h4><div class="roles">${roles}</div><p class="expertise"><strong>Core expertise:</strong> ${esc(expertise)}</p><p><strong>All capabilities:</strong> ${esc((p.capabilities||[]).join(" · "))}</p>${pathway}${deliverables}${submission}${dataSource}${dataLinks}</div></details>
     <div class="actions">
-      <span class="team">Team: ${esc(p.team_size)}</span>
-      <a class="open" href="${esc(p.repository)}" target="_blank" rel="noopener">Open project →</a>
+      <a class="button primary" href="https://tally.so/r/eq4Wjo" target="_blank" rel="noopener" aria-label="Apply for ${esc(p.id)} — ${esc(p.name)}">Apply <span aria-hidden="true">↗</span></a>
+      <a class="open" href="${esc(p.repository)}" target="_blank" rel="noopener" aria-label="View project ${esc(p.id)} — ${esc(p.name)}">View project →</a>
     </div>
   </article>`;
 }
@@ -79,9 +76,14 @@ function changePage(delta){
   state.page+=delta;
   render();
   $("#results").focus({preventScroll:true});
-  $("#results").scrollIntoView({behavior:"smooth",block:"start"});
+  $("#results").scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth",block:"start"});
 }
 function render(){
+  document.querySelectorAll('[data-track]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.track===state.track)));
+  const active=[state.track,state.role,state.sector,state.search&&'Search: '+state.search].filter(Boolean);
+  $("#active-filters").hidden=!active.length;
+  $("#active-filters").textContent="Filtering by: "+active.join(" · ");
+  $("#filter-count").textContent=[state.role,state.sector].filter(Boolean).length?"("+[state.role,state.sector].filter(Boolean).length+" active)":"";
   const filtered=sortedProjects(state.projects.filter(matches));
   const pages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));
   state.page=Math.min(Math.max(1,state.page),pages);
@@ -103,6 +105,9 @@ async function init(){
   fillSelect($("#role"),unique(state.projects.flatMap(p=>p.roles||[])),"All roles");
   fillSelect($("#sector"),unique(state.projects.flatMap(sectors)),"All sectors");
 
+  const tracks=unique(state.projects.map(p=>p.track));
+  $("#track-options").innerHTML=["",...tracks].map(t=>'<button type="button" data-track="'+esc(t)+'" aria-pressed="'+(!t)+'" aria-controls="cards"><span>'+esc(t||"All projects")+'</span><span class="track-count">'+state.projects.filter(p=>!t||p.track===t).length+'</span></button>').join("");
+  $("#track-options").addEventListener("click",e=>{const button=e.target.closest("[data-track]");if(!button)return;state.track=button.dataset.track;$("#track").value=state.track;state.page=1;render()});
   $("#search").addEventListener("input",e=>{state.search=e.target.value;state.page=1;render()});
   $("#track").addEventListener("change",e=>{state.track=e.target.value;state.page=1;render()});
   $("#role").addEventListener("change",e=>{state.role=e.target.value;state.page=1;render()});
@@ -123,6 +128,6 @@ async function init(){
   render();
 }
 init().catch(err=>{
-  $("#cards").innerHTML='<div class="empty">The catalogue could not be loaded. Please refresh the page.</div>';
+  $("#cards").innerHTML='<div class="empty">The catalogue could not be loaded. Please refresh the page or <a href="https://github.com/Mettelo/project-library">browse the project library</a>.</div>';
   console.error(err);
 });
