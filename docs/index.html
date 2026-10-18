@@ -8,9 +8,10 @@
   <meta http-equiv="Expires" content="0">
   <meta name="description" content="Browse Mettelo production-style Data, Engineering, Data Science, AI, Business Analysis and cross-functional projects.">
   <title>Mettelo Project Studio Catalogue</title>
-  <link rel="stylesheet" href="./styles.css?v=20261017-header-2">
+  <link rel="stylesheet" href="./styles.css?v=20261018-studio">
 </head>
 <body>
+<a class="skip-link" href="#catalogue">Skip to projects</a>
 <nav class="sitebar" aria-label="Main navigation">
   <div class="wrap sitebar-inner">
     <a class="brand" href="./" aria-label="Mettelo Project Studio home">
@@ -33,31 +34,49 @@
   </div>
 </nav>
 
-<header>
-  <div class="wrap">
-    <div class="eyebrow">Project Studio Catalogue</div>
-    <h1>Build capability by solving real problems.</h1>
-    <p class="lead">Browse specialist and cross-functional projects across Data Analytics, Data Engineering, Data Science, Artificial Intelligence, Business Analysis, Data Governance and BI. Filter by track, delivery role, sector or skill.</p>
-    <div class="stats">
-      <div class="stat"><strong id="totalProjects">—</strong>Projects</div>
-      <div class="stat"><strong id="totalTracks">—</strong>Core tracks</div>
-      <div class="stat"><strong id="totalSectors">—</strong>Sectors</div>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Mettelo / Project Studio</div>
+      <h1>Build real evidence<br>of what you can do.</h1>
+      <p class="lead">Take on a real organisational challenge. Work with a delivery team, build something useful and turn your contribution into evidence you can share.</p>
+      <div class="hero-actions"><a class="button primary" href="#catalogue">Find your project <span aria-hidden="true">↓</span></a><a href="#how-it-works">How it works</a></div>
+      <div class="stats" aria-label="Catalogue at a glance">
+        <span><strong id="totalProjects">—</strong> projects</span>
+        <span><strong id="totalTracks">—</strong> tracks</span>
+        <span><strong id="totalSectors">—</strong> sectors</span>
+      </div>
     </div>
+    <aside class="studio-note" aria-label="The Project Studio approach">
+      <span class="eyebrow">From practice to proof</span>
+      <p>A real challenge.<br>A shared standard.<br><em>Your contribution.</em></p>
+      <div>Defined deliverables. Acceptance criteria. Evidence of the work you actually did.</div>
+      <a href="https://github.com/Mettelo/project-library" target="_blank" rel="noopener">Explore the project library ↗</a>
+    </aside>
   </div>
 </header>
-
-<main class="wrap">
-  <section class="filters" aria-label="Project filters">
-    <div class="filter-help">Find a project by track, the role you want to practise, sector, or a specific skill.</div>
-    <div class="filter-grid">
-      <input id="search" type="search" placeholder="Search: FRD, user stories, integration, Power BI, NHS..." aria-label="Search projects">
-      <select id="track" aria-label="Filter by track"><option value="">All tracks</option></select>
-      <select id="role" aria-label="Filter by role"><option value="">All roles</option></select>
-      <select id="sector" aria-label="Filter by sector"><option value="">All sectors</option></select>
-      <button id="reset" type="button">Reset</button>
-    </div>
+<main>
+  <section class="how wrap" id="how-it-works" aria-labelledby="how-title">
+    <div class="section-intro"><div class="eyebrow">How it works</div><h2 id="how-title">A project with a purpose.</h2></div>
+    <ol class="steps">
+      <li><span>01</span><h3>Choose your challenge</h3><p>Find a project that builds the capability you want to practise.</p></li>
+      <li><span>02</span><h3>Apply to join a team</h3><p>Read the brief, note the project ID and apply for your chosen project.</p></li>
+      <li><span>03</span><h3>Deliver &amp; review</h3><p>Work against defined deliverables, acceptance criteria and submission guidance.</p></li>
+      <li><span>04</span><h3>Build your proof</h3><p>Document your contribution and the evidence behind your work.</p></li>
+    </ol>
   </section>
-
+  <section class="catalogue wrap" id="catalogue" aria-labelledby="catalogue-title">
+    <div class="section-intro"><div class="eyebrow">Find your next challenge</div><h2 id="catalogue-title">What capability will you build?</h2><p>Start with a track. Refine by the role, sector or skills you want to explore.</p></div>
+    <div id="track-options" class="track-options" role="group" aria-label="Choose a project track"></div>
+    <section class="filters" aria-label="Project filters">
+      <div class="search-row"><label for="search">Search the catalogue<input id="search" type="search" placeholder="Try SQL, Power BI, NHS or a project ID…"></label><button id="reset" type="button">Reset all</button></div>
+      <details class="advanced"><summary>Refine your search <span id="filter-count"></span></summary><div class="filter-grid">
+        <label for="track">Track<select id="track"><option value="">All tracks</option></select></label>
+        <label for="role">Delivery role<select id="role"><option value="">All roles</option></select></label>
+        <label for="sector">Sector<select id="sector"><option value="">All sectors</option></select></label>
+      </div></details>
+      <p id="active-filters" class="active-filters" hidden></p>
+    </section>
   <div class="results-head" id="results" tabindex="-1">
     <h2>Available projects</h2>
     <label class="sort-control">Sort by
@@ -77,13 +96,16 @@
     <span data-page-status aria-live="polite"></span>
     <button type="button" data-page-next aria-controls="cards">Next →</button>
   </nav>
-  <section id="cards" class="cards" aria-live="polite"></section>
+  <section id="cards" class="cards" aria-label="Project results"><p class="empty" role="status">Loading projects…</p></section>
+  <noscript><p>Enable JavaScript to filter the catalogue, or <a href="https://github.com/Mettelo/project-library">browse all projects in the repository</a>.</p></noscript>
   <nav class="pagination" aria-label="Project pages below results" hidden>
     <button type="button" data-page-prev aria-controls="cards">← Previous</button>
     <span data-page-status aria-live="polite"></span>
     <button type="button" data-page-next aria-controls="cards">Next →</button>
   </nav>
   <p><a href="https://www.linkedin.com/company/mattelohq/" target="_blank" rel="noopener">Follow Mettelo on LinkedIn →</a></p>
+</section>
+<section class="apply-banner wrap" aria-labelledby="apply-title"><div><div class="eyebrow">Your next step</div><h2 id="apply-title">Found a challenge worth taking on?</h2><p>Read the full project brief, then include its project ID in your application.</p></div><a class="button primary" href="https://tally.so/r/eq4Wjo" target="_blank" rel="noopener">Apply for a project ↗</a></section>
 </main>
 
 <footer>
@@ -93,6 +115,6 @@
   </div>
 </footer>
 
-<script src="./app.js?v=20261017-ai-1"></script>
+<script src="./app.js?v=20261018-studio"></script>
 </body>
 </html>
