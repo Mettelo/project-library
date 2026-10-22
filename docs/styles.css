@@ -393,3 +393,11 @@ footer strong{color:white}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 }
+
+/* Clear routes back to the main website and member onboarding. */
+.site-links{gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.site-links .return-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border:1px solid #87909f;border-radius:3px;white-space:nowrap}
+.site-links .return-link:hover{background:#303861;text-decoration:none;border-color:#fff}
+.site-links a:focus-visible{outline-color:#f1bc65}
+@media(max-width:1000px){.site-links{justify-content:flex-start}}
+@media(max-width:720px){.site-links .return-link{flex:1;min-width:120px}.site-links>a:not(.return-link){width:100%}.site-links .apply-link{display:flex;justify-content:center}}
